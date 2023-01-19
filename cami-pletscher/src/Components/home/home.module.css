@@ -134,109 +134,108 @@ body {
 }
 
 .show {
-    display: none;
-    visibility: hidden;
+  display: none;
+  visibility: hidden;
 }
 
+.profile_mobile {
+  display: none;
+  visibility: hidden;
+}
 
 /* RESPONSIVE  =========================================================================  */
 
 /* Tablets en horizonal y escritorios normales */
 @media (min-width: 768px) and (max-width: 1199px) {
-    .container_logo_txt {
-        margin-left: 3em;
-        width: 50%;
-    }
+  .container_logo_txt {
+    margin-left: 3em;
+    width: 50%;
+  }
 
-    .cont_hola p {
-        font-size: 2em;
-    }
+  .cont_hola p {
+    font-size: 2em;
+  }
 
-    .cont_soy p {
-        padding: 0;
-        font-size: 3em;
-    }
+  .cont_soy p {
+    padding: 0;
+    font-size: 3em;
+  }
 
-    .cont_anclaje p {
-        font-size: 1em;
-    }
+  .cont_anclaje p {
+    font-size: 1em;
+  }
 
-    .cont_description p {
-        font-size: 0.8em;
-    }
+  .cont_description p {
+    font-size: 0.8em;
+  }
 
-    .container_buttons button {
-        font-size: 1em;
-    }
+  .container_buttons button {
+    font-size: 1em;
+  }
 
-    .container_profile {
-        width: 50%;
-    }
+  .container_profile {
+    width: 50%;
+  }
 
-    .container_profile img {
-        width: 100%;
-    }
+  .container_profile img {
+    width: 100%;
+  }
 
-    .container_logo img {
-        width: 150px;
-        
-    }
-
-
-
+  .container_logo img {
+    width: 150px;
+  }
 }
 
 /* Móviles en horizontal o tablets en vertical */
 
 @media (max-width: 767px) {
-.container_home {
+  .container_home {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-}
+  }
 
-    .container_logo_txt {
-        width: 100%;
-        margin-left: 0;
-    }
+  .profile_mobile {
+    visibility: visible;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
 
-    .container_profile {
-        width: 100%;
-        justify-content: center;
-        display: flex;
-    }
+  .profile_mobile img {
+    width: 50%;
+  }
 
-    .container_profile img {
-        width: 70%;
-        
-    }
+  .container_logo_txt {
+    width: 100%;
+    margin-left: 0;
+  }
 
-    .container_txt {
-        margin-top: 2em;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-content: center;
-        align-items: center;
-        width: 100%;
-    }
+  .container_txt {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
-    .container_logo_txt {
-        align-items: center;
-    }
+  .container_logo_txt {
+    align-items: center;
+  }
 
-    .show {
-        display: block;
-        visibility: visible;
-    }
+  .show {
+    display: block;
+    visibility: visible;
+  }
 
-    .hide {
-        display: none;
-        visibility: hidden;
-    }
-
+  .hide {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 /* Móviles en vertical */
