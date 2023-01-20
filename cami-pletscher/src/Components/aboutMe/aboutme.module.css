@@ -232,3 +232,13 @@
     font-size: 0.8em;
     margin-top: 0.5em;
 }
+
+.show {
+    display: block;
+    visibility: visible;
+  }
+
+  .hide {
+    display: none;
+    visibility: hidden;
+  }

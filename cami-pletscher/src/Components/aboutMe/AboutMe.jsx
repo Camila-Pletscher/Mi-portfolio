@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import Menu from "../menu/Menu";
 import styles from "./aboutme.module.css";
+import "../styles/global.css";
 
 function AboutMe() {
+
+  const [menu, setmenu] = useState(false);
+
   return (
     <div className={styles.container_about}>
-      <div className={styles.container_menu}>
+    <div className="show" onClick={()=> setmenu(!menu)}>
+      menu
+    </div>
+      {menu && <div className={styles.container_menu}>
         <Menu />
       </div>
+      }
       <div className={styles.container_about_right}>
+      {!menu && <div>
+      <p>Menu cerrado</p>
+      </div>}
         <div className={styles.cont_title}>
           <p>SOBRE MI</p>
         </div>
