@@ -5,7 +5,7 @@ import "../styles/global.css";
 
 function AboutMe() {
 
-  const [menu, setmenu] = useState(false);
+  const [menu, setmenu] = useState(true);
 
   return (
     <div className={styles.container_about}>
@@ -20,7 +20,7 @@ function AboutMe() {
       {!menu && <div>
       <p>Menu cerrado</p>
       </div>}
-        <div className={styles.cont_title}>
+        <div className="cont_title">
           <p>SOBRE MI</p>
         </div>
         <div className={styles.cont_description}>

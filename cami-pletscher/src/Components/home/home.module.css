@@ -27,15 +27,15 @@ body {
   flex-wrap: nowrap;
   align-content: flex-start;
   align-items: flex-start;
-  margin-left: 5em;
+  margin-left: 10em;
 }
 
 .container_logo img {
-  width: 180px;
+  width: 280px;
 }
 
 .container_profile {
-  width: 45%;
+  width: 44%;
 }
 
 .container_profile img {
@@ -50,7 +50,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #000000;
-  font-size: 2em;
+  font-size: 3em;
   margin: 0;
   padding: 0;
 }
@@ -59,7 +59,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #000000;
-  font-size: 3em;
+  font-size: 5em;
   padding-bottom: 0.5em;
   margin: 0;
 }
@@ -72,7 +72,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #ffffff;
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 .cont_anclaje {
@@ -86,7 +86,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #000000;
-  font-size: 1.2em;
+  font-size: 1.8em;
   padding-bottom: 0.5em;
 }
 
@@ -100,14 +100,14 @@ body {
 .container_buttons button {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 .download {
   background-color: #ffffff;
   border: #fe006e solid 1px;
   border-radius: 0.5em;
-  width: 130px;
+  width: 220px;
   padding: 0.5em 0;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -117,7 +117,7 @@ body {
   background-color: #fe006e;
   color: #ffffff;
   border-radius: 0.5em;
-  width: 130px;
+  width: 220px;
   padding: 0.5em 0;
   border: 0;
 }
@@ -143,10 +143,11 @@ body {
   visibility: hidden;
 }
 
-/* RESPONSIVE  =========================================================================  */
+/* RESPONSIVE  ========================================================================= 
+
 
 /* Tablets en horizonal y escritorios normales */
-@media (min-width: 768px) and (max-width: 1199px) {
+/* @media (min-width: 768px) and (max-width: 1199px) {
   .container_logo_txt {
     margin-left: 3em;
     width: 50%;
@@ -184,11 +185,11 @@ body {
   .container_logo img {
     width: 150px;
   }
-}
+} */
 
 /* Móviles en horizontal o tablets en vertical */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .container_home {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -236,8 +237,8 @@ body {
     display: none;
     visibility: hidden;
   }
-}
+} */
 
 /* Móviles en vertical */
-@media (max-width: 480px) {
-}
+/* @media (max-width: 480px) {
+}  */

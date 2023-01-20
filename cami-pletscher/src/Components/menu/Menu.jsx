@@ -12,17 +12,21 @@ function Menu() {
         ></img>
       </div>
       <div className={styles.container_nav}>
-        <Link to="/">
+        <Link to="/home">
           <div className={styles.cont_home}>
             <p>HOME</p>
           </div>
         </Link>
-        <div className={styles.cont_sobre_mi}>
-          <p>SOBRE MI</p>
-        </div>
-        <div className={styles.cont_skills}>
-          <p>KILLS</p>
-        </div>
+        <Link to="/about_me">
+          <div className={styles.cont_sobre_mi}>
+            <p>SOBRE MI</p>
+          </div>
+        </Link>
+        <Link to="/skills">
+          <div className={styles.cont_skills}>
+            <p>SKILLS</p>
+          </div>
+        </Link>
         <div className={styles.cont_logros}>
           <p>LOGROS</p>
         </div>

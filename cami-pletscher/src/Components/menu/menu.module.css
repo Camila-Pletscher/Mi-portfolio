@@ -41,13 +41,13 @@ body {
   align-content: center;
   align-items: center;
   justify-content: space-around;
-  padding-top: 8em;
+  padding-top: 11em;
 }
 
 .cont_home p {
   font-weight: 400;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.2em;
   letter-spacing: 7px;
   text-decoration: none;
 }
@@ -55,41 +55,42 @@ body {
 .cont_sobre_mi p {
     font-weight: 400;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 7px;
   }
 
   .cont_skills p {
     font-weight: 400;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 7px;
   }
 
   .cont_logros p {
     font-weight: 400;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 7px;
   }
 
   .cont_portfolio p {
     font-weight: 400;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 7px;
   }
 
   .cont_contact p {
     font-weight: 400;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 7px;
   }
 
 .cont_home, .cont_sobre_mi, .cont_skills, .cont_logros, .cont_portfolio, .cont_contact {
     background-color: #fe006e;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
+    padding: 0.5em;
     text-decoration: none;
     color: #000000;
 }

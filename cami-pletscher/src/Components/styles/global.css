@@ -17,6 +17,31 @@
     visibility: hidden;
   }
 
+  .cont_title p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 15px;
+    text-align: center;
+
+}
+
+.cont_title {
+    border: 1px solid #fe006e;
+    width: 80%;
+    padding: 3em 0;
+    margin: 0 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
   /* RESPONSIVE  =========================================================================  */
 
 /* Tablets en horizonal y escritorios normales */

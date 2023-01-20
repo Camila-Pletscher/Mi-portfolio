@@ -36,12 +36,11 @@
 }
 
 .container_menu {
-    width: 25%;
-}
+    width: 25%;}
 
-.cont_title p {
+/* .cont_title p {
     font-family: 'Roboto', sans-serif;
-    font-size: 2.5em;
+    font-size: 4em;
     font-weight: 700;
     letter-spacing: 15px;
     text-align: center;
@@ -51,14 +50,14 @@
 .cont_title {
     border: 1px solid #fe006e;
     width: 80%;
-    padding: 1em 0;
-    margin: 0 1em;
+    padding: 3em 0;
+    margin: 0 1.5em;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
 
-}
+} */
 
 .cont_description {
     width: 80%;
@@ -72,8 +71,9 @@
 .cont_description p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1em;
-    margin-top: 1em;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 .cont_description p span {
@@ -99,17 +99,17 @@
 }
 
 .container_line img {
-    height: 60%;
+    height: 100%;
 }
 
 .cont_subtitle {
     background-color: #fe006e;
-    padding: 0.5em 1em;
+    padding: 0.8em 1em;
 }
 
 .cont_subtitle p {
     color: #ffffff;
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 .container_education {
     background-color: #000000;
@@ -117,7 +117,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
 
 }
 
@@ -126,48 +126,51 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    margin-top: 1em;
+    margin-top: 2em;
     width: 40%;
+    margin-bottom: 1.5em;
 }
 
 .cont_design .one {
     font-weight: 400;
     text-align: center;
-    margin-top: 0.8em;
+    margin-top: 1em;
+    font-size: 1.5em;
 }
 
 .cont_design .two {
     font-weight: 700;
     text-align: center;
-    font-size: 1.2em;
-    margin-top: 0.5em;
+    font-size: 1.8em;
+    margin-top: 0.8em;
 }
 
 .cont_design .three {
     font-weight: 300;
     text-align: center;
-    font-size: 0.8em;
-    margin-top: 0.5em;
+    font-size: 1.2em;
+    margin-top: 0.8em;
 }
 
 .cont_dev .one {
     font-weight: 400;
     text-align: center;
-    margin-top: 0.8em;
+    margin-top: 1em;
+    font-size: 1.5em;
 }
 
 .cont_dev .two {
     font-weight: 700;
     text-align: center;
-    font-size: 1.2em;
-    margin-top: 0.5em;
+    font-size: 1.8em;
+    margin-top: 0.8em;
 }
 
 .cont_dev .three {
     font-weight: 300;
     text-align: center;
-    font-size: 0.8em;
-    margin-top: 0.5em;
+    font-size: 1.2em;
+    margin-top: 0.8em;
 }
 
 
@@ -182,7 +185,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
 
 }
 
@@ -195,20 +198,20 @@
     font-weight: 700;
     text-align: center;
     margin-top: 0.8em;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .cont_chiappini .two {
     font-weight: 700;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-top: 0.5em;
 }
 
 .cont_chiappini .three {
     font-weight: 300;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.2em;
     margin-top: 0.5em;
 }
 
@@ -216,20 +219,20 @@
     font-weight: 700;
     text-align: center;
     margin-top: 0.8em;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .cont_mrm .two {
     font-weight: 700;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-top: 0.5em;
 }
 
 .cont_mrm .three {
     font-weight: 300;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.2em;
     margin-top: 0.5em;
 }
 
@@ -242,3 +245,20 @@
     display: none;
     visibility: hidden;
   }
+
+  /* RESPONSIVE  =========================================================================  */
+
+/* Tablets en horizonal y escritorios normales */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+/* Móviles en horizontal o tablets en vertical */
+
+@media (max-width: 767px) {
+
+}
+
+/* Móviles en vertical */
+@media (max-width: 480px) {
+}
