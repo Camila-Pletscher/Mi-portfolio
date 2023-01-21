@@ -12,7 +12,7 @@ function Menu() {
         ></img>
       </div>
       <div className={styles.container_nav}>
-        <Link to="/home">
+        <Link to="/">
           <div className={styles.cont_home}>
             <p>HOME</p>
           </div>
