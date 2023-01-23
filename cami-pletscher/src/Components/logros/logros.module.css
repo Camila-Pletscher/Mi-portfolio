@@ -1,0 +1,38 @@
+/* ESTILOS NORMALES (para escritorios muy grandes) */
+
+.container_menu {
+    width: 25%;
+}
+
+.container_logros {
+    background-image: url('https://i.postimg.cc/GmkyCcc8/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    
+}
+
+.container_logros_right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+    width: 75%;
+    margin-top: 4em;
+}
+
+.container_divs_logros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 5em 1.5em;
+}

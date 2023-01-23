@@ -27,9 +27,11 @@ function Menu() {
             <p>SKILLS</p>
           </div>
         </Link>
+        <Link to="/logros">
         <div className={styles.cont_logros}>
           <p>LOGROS</p>
         </div>
+        </Link>
         <div className={styles.cont_portfolio}>
           <p>PORTFOLIO</p>
         </div>

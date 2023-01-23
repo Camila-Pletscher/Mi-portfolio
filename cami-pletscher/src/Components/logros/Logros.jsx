@@ -1,24 +1,24 @@
 import React, { useEffect, useState } from "react";
 import Menu from "../menu/Menu";
-import styles from "./skill.module.css";
+import styles from "./logros.module.css";
 import "../styles/global.css";
-import SkillList from "./SkillList";
+import LogroList from "./LogroList";
 
-function Skills() {
+function Logros() {
   const [menu, setmenu] = useState(true);
 
-  const [skill, setSkill] = useState([]);
+  const [logro, setLogro] = useState([]);
 
   useEffect(() => {
-    fetch("../data/skill.json")
+    fetch("../data/logros.json")
       .then((resp) => resp.json())
       .then((data) => {
-        setSkill(data);
+        setLogro(data);
       });
   }, []);
 
   return (
-    <div className={styles.container_skills}>
+    <div className={styles.container_logros}>
       <div className="show" onClick={() => setmenu(!menu)}>
         menu
       </div>
@@ -27,15 +27,15 @@ function Skills() {
           <Menu />
         </div>
       )}
-      <div className={styles.container_skills_right}>
+      <div className={styles.container_logros_right}>
         <div className="cont_title">
-          <p>SKILLS</p>
+          <p>LOGROS</p>
         </div>
 
-        <SkillList skills={skill} />
+        <LogroList logros={logro} />
       </div>
     </div>
   );
 }
 
-export default Skills;
+export default Logros;
