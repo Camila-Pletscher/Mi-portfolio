@@ -1,61 +1,113 @@
 [
-    {
-        "id": "1",
-        "icon": "",
-        "title": "Photoshop"
-    },
+  {
+    "id": "1",
+    "icon": "https://i.postimg.cc/ydBbXpmf/iconpsd.png",
+    "title": "Photoshop"
+  },
 
-    {
-        "id": "2",
-        "icon": "",
-        "title": "Illustrator"
-    },
+  {
+    "id": "2",
+    "icon": "https://i.postimg.cc/SRVFMFH7/iconai.png",
+    "title": "Illustrator"
+  },
 
-    {
-        "id": "3",
-        "icon": "",
-        "title": "HTML"
-    },
+  {
+    "id": "3",
+    "icon": "https://i.postimg.cc/Prq0R7B9/iconhtml.png",
+    "title": "HTML"
+  },
 
-    {
-        "id": "4",
-        "icon": "",
-        "title": "CSS"
-    },
+  {
+    "id": "4",
+    "icon": "https://i.postimg.cc/kXXddGtj/iconcss.png",
+    "title": "CSS"
+  },
 
-    {
-        "id": "5",
-        "icon": "",
-        "title": "JavaScript"
-    },
+  {
+    "id": "5",
+    "icon": "https://i.postimg.cc/g2XQYZcK/iconjs.png",
+    "title": "JavaScript"
+  },
 
-    {
-        "id": "6",
-        "icon": "",
-        "title": "ReactJS"
-    },
+  {
+    "id": "6",
+    "icon": "https://i.postimg.cc/FzHCwfn3/iconreactjs.png",
+    "title": "ReactJS"
+  },
 
-    {
-        "id": "7",
-        "icon": "",
-        "title": "Canva"
-    },
+  {
+    "id": "7",
+    "icon": "https://i.postimg.cc/mgPftnjC/iconcanva.png",
+    "title": "Canva"
+  },
 
-    {
-        "id": "8",
-        "icon": "",
-        "title": "Bootstrap"
-    },
+  {
+    "id": "8",
+    "icon": "https://i.postimg.cc/5N7W9JBf/iconboots.png",
+    "title": "Bootstrap"
+  },
 
-    {
-        "id": "9",
-        "icon": "",
-        "title": "Materialize"
-    },
+  {
+    "id": "9",
+    "icon": "https://i.postimg.cc/GmWN9mHn/iconmater.png",
+    "title": "Materialize"
+  },
 
-    {
-        "id": "1",
-        "icon": "",
-        "title": "Photoshop"
-    }
+  {
+    "id": "10",
+    "icon": "https://i.postimg.cc/k4chjNw7/iconreactbts.png",
+    "title": "React-Bootstrap"
+  },
+
+  {
+    "id": "11",
+    "icon": "https://i.postimg.cc/dQ6znFSG/icongithub.png",
+    "title": "GitHub"
+  },
+
+  {
+    "id": "12",
+    "icon": "https://i.postimg.cc/mkmJr3Fm/icongit.png",
+    "title": "Git"
+  },
+  {
+    "id": "13",
+    "icon": "https://i.postimg.cc/90gg2WvS/iconsweet.png",
+    "title": "Sweetalert2"
+  },
+  {
+    "id": "14",
+    "icon": "https://i.postimg.cc/DwRVscpD/iconfigma.png",
+    "title": "Figma"
+  },
+  {
+    "id": "15",
+    "icon": "https://i.postimg.cc/hGVYmRdz/iconoffice.png",
+    "title": "Microsoft Office"
+  },
+  {
+    "id": "16",
+    "icon": "https://i.postimg.cc/jjfphJGj/iconapple.png",
+    "title": "Sistema IOS"
+  },
+  {
+    "id": "17",
+    "icon": "https://i.postimg.cc/mkLKRphc/iconcorner.png",
+    "title": "Cornerstone"
+  },
+  {
+    "id": "18",
+    "icon": "https://i.postimg.cc/PxkBV5jQ/iconfile.png",
+    "title": "FileZilla"
+  },
+  {
+    "id": "19",
+    "icon": "https://i.postimg.cc/qRXWPHBV/icondw.png",
+    "title": "Dreamweaver"
+  },
+  {
+    "id": "20",
+    "icon": "https://i.postimg.cc/sD0bdczX/iconid.png",
+    "title": "Indesign"
+  }
 ]
