@@ -13,7 +13,7 @@ function LogroItem({ certificate, title, id, place, date }) {
           <img src={certificate} alt=""></img>
         </a>
       </div>
-      <div>
+      <div className={styles.container_info}>
         <div className={styles.cont_title_logro}>
           <p>{title}</p>
         </div>

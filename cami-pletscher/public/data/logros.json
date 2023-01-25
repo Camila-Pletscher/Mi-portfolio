@@ -1,9 +1,30 @@
 [
-    {
-        "id": "1",
-        "certificate": "https://i.postimg.cc/dQ66km59/utn.jpg",
-        "title": "Fundamentos de la programación",
-        "place": "Universidad Tecnológica Nacional",
-        "date": "Mayo 2021 - 2022"
-    }
+  {
+    "id": "1",
+    "certificate": "https://i.postimg.cc/dQ66km59/utn.jpg",
+    "title": "Fundamentos de la programación",
+    "place": "Universidad Tecnológica Nacional",
+    "date": "Enero 2021 - Abril 2021"
+  },
+  {
+    "id": "2",
+    "certificate": "https://i.postimg.cc/CxyDQtTj/dw61f1012c34fc76002e0cee09.png",
+    "title": "Desarrollo Web",
+    "place": "Escuela Digital Coderhouse",
+    "date": "Noviembre 2021 - Enero 2022"
+  },
+  {
+    "id": "3",
+    "certificate": "https://i.postimg.cc/3w1vWxyB/js629225f936308c001ccdc13a.png",
+    "title": "JavaScript",
+    "place": "Escuela Digital Coderhouse",
+    "date": "Marzo 2022 - Mayo 2022"
+  },
+  {
+    "id": "4",
+    "certificate": "https://i.postimg.cc/vmbnQVmT/rjs630d73be1a71b40019927c44.png",
+    "title": "React Js",
+    "place": "Escuela Digital Coderhouse",
+    "date": "Junio 2022 - Julio 2022"
+  }
 ]

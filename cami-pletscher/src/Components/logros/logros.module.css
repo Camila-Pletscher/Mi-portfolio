@@ -36,3 +36,46 @@
     width: 80%;
     margin: 5em 1.5em;
 }
+
+.cont_each_logro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 40%;
+    background-color: #000000;
+    padding: 1em;
+    margin: 1em;
+    height: 200px;
+}
+
+.cont_certificate_logro {
+    display: flex;
+    width: 35%;
+    padding-right: 2em;
+}
+
+.cont_certificate_logro img {
+    width: 100%;
+}
+
+.container_info {
+    width: 60%;
+}
+
+.cont_title_logro {
+    color: #FE006E;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.cont_place_logro {
+    color: #ffffff;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.cont_date_logro {
+    color: #ffffff;
+    font-size: 1.2em;
+}
