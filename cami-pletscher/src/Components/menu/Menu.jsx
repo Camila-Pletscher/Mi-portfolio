@@ -39,6 +39,9 @@ function Menu() {
           <p>CONTACTO</p>
         </div>
       </div>
+      <div className={styles.container_logo_menu}>
+        <img src="https://i.postimg.cc/YSKyq0QP/Circular.png" alt=""></img>
+      </div>
     </div>
   );
 }
