@@ -5,10 +5,7 @@
 }
 
 .container_skills {
-    background-image: url('https://i.postimg.cc/GmkyCcc8/background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+background-color: #ffffff;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -38,14 +35,17 @@
 
 }
 .cont_each_skill {
-    background-color: #ffffff99;
+    background-color: #cdabb91a;
     width: 20%;
     margin: 1.5em;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    border-radius: 0 25px;
+    border-radius: 25px;
+    box-shadow: 9px 12px 34px -3px rgba(0,0,0,0.66);
+-webkit-box-shadow: 9px 12px 34px -3px rgba(0,0,0,0.66);
+-moz-box-shadow: 9px 12px 34px -3px rgba(0,0,0,0.66);
 
 }
 .cont_icon_skill img {
@@ -58,7 +58,7 @@ background-color: #FE006E;
 width: 100%;
 text-align: center;
 padding: 0.5em 0em;
-border-radius: 0px 25px;
+border-radius: 0 0 25px 25px;
 }
 
 .cont_title_skill p {
