@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./menu.module.css";
 
-function Menu() {
+function Menu(props) {
+
+
+
   return (
     <div className={styles.container_menu}>
       <div className={styles.container_profile}>
@@ -18,7 +21,7 @@ function Menu() {
           </div>
         </Link>
         <Link to="/about_me">
-          <div className={styles.cont_sobre_mi}>
+          <div className={styles.cont_sobre_mi} >
             <p>SOBRE MI</p>
           </div>
         </Link>

@@ -1,4 +1,4 @@
-/* ESTILOS NORMALES (para escritorios muy grandes) */
+/* ESTILOS NORMALES (para escritorios muy grandes) +1920 */ 
 
 * {
   font-family: "Roboto", sans-serif;
@@ -60,7 +60,6 @@ body {
   font-size: 1.2em;
   letter-spacing: 7px;
 }
-
 .cont_skills p {
   font-weight: 400;
   text-align: center;
@@ -115,7 +114,6 @@ a:-webkit-any-link {
   box-shadow: 9px 12px 34px -3px rgba(0, 0, 0, 0.66);
   -webkit-box-shadow: 9px 12px 34px -3px rgba(0, 0, 0, 0.66);
   -moz-box-shadow: 9px 12px 34px -3px rgba(0, 0, 0, 0.66);
-
 }
 
 .container_logo_menu img {
@@ -125,15 +123,27 @@ a:-webkit-any-link {
 
 /* RESPONSIVE  =========================================================================  */
 
-/* Tablets en horizonal y escritorios normales */
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width:1500px) and (max-width:1919px) {
+
 }
 
-/* Móviles en horizontal o tablets en vertical */
+@media (min-width:1200px) and (max-width:1499px) {
 
-@media (max-width: 767px) {
 }
 
-/* Móviles en vertical */
-@media (max-width: 480px) {
+@media (min-width:960px) and (max-width:1199px) {
+
 }
+
+@media (min-width:600px) and (max-width:959px) {
+
+}
+
+@media (min-width:420px) and (max-width:599px) {
+
+}
+
+@media (min-width:320px) and (max-width:419px) {
+
+}
+
