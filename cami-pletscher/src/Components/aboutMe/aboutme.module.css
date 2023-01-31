@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .container_about_right {
