@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Menu from "../menu/Menu";
+import Educacion from "../educacion/Educacion"
 import styles from "./aboutme.module.css";
 import "../styles/global.css";
 
@@ -83,11 +84,16 @@ function AboutMe() {
             </div>
           </div>
         </div>
-        <div className={styles.container_table}>
-          <div className={styles.cont_subtitle}>
-            <p>Educación</p>
-          </div>
+        
           {/* Educacion */}
+          <div>
+            <Educacion/>
+          </div>
+  <div className={styles.container_table}>
+            <div className={styles.cont_subtitle}>
+              <p>Educación</p>
+            </div>
+
           <div className={styles.container_education}>
             <div className={styles.cont_design}>
               <div>
