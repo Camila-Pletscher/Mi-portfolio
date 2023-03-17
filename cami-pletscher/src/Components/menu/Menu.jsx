@@ -7,45 +7,26 @@ function Menu(props) {
 
 
   return (
-    <div className={styles.container_menu}>
-      <div className={styles.container_profile}>
-        <img
-          src="https://i.postimg.cc/j5f5tj4p/selfie-fondo-cuad.png"
-          alt=""
-        ></img>
-      </div>
-      <div className={styles.container_nav}>
-        <Link to="/">
-          <div className={styles.cont_home}>
-            <p>HOME</p>
-          </div>
-        </Link>
-        <Link to="/about_me">
-          <div className={styles.cont_sobre_mi} >
-            <p>SOBRE MI</p>
-          </div>
-        </Link>
-        <Link to="/skills">
-          <div className={styles.cont_skills}>
-            <p>SKILLS</p>
-          </div>
-        </Link>
-        <Link to="/logros">
-        <div className={styles.cont_logros}>
-          <p>LOGROS</p>
+<div className={styles.container_logo_nav}>
+        <div className={styles.container_logo}>
+          <img
+            src="https://i.postimg.cc/rsJNGbKY/Logo-personal-web.png"
+            alt=""
+          ></img>
         </div>
+        <div className={styles.container_nav}>
+        <Link to="/" className={styles.active}>
+          <div>HOME</div>
         </Link>
-        <div className={styles.cont_portfolio}>
-          <p>PORTFOLIO</p>
-        </div>
-        <div className={styles.cont_contact}>
-          <p>CONTACTO</p>
+          <Link to="/about_me">
+            <div>SOBRE MI</div>
+          </Link>
+          
+          <div>MI PORTFOLIO</div>
+          <div>SKILLS</div>
+          <div>CONTACTO</div>
         </div>
       </div>
-      <div className={styles.container_logo_menu}>
-        <img src="https://i.postimg.cc/YSKyq0QP/Circular.png" alt=""></img>
-      </div>
-    </div>
   );
 }
 
