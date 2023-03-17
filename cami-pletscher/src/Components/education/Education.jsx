@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './educacion.module.css'
+import styles from './education.module.css'
 
-function Educacion() {
+function Education() {
   return (
-    <div className={styles.container_educacion}>
+    <div className={styles.container_education}>
         <div className='cont_title'>
             <img src='https://i.postimg.cc/4d1Hsxxm/Mesa-de-trabajo-13.png' alt=''></img>
         </div>
@@ -40,4 +40,4 @@ function Educacion() {
   )
 }
 
-export default Educacion;
+export default Education;

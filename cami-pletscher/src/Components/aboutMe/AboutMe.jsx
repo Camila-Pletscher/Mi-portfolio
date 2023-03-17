@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Menu from "../menu/Menu";
-import Educacion from "../educacion/Educacion"
+import Education from "../education/Education";
+import Experience from "../experience/Experience";
 import styles from "./aboutme.module.css";
 import "../styles/global.css";
 
@@ -38,10 +39,10 @@ function AboutMe() {
           </div>
           <div className={styles.cont_description}>
             <p className={styles.name}>Mi nombre es Camila Pletscher.</p>
-            <p className={styles.profesion}>
+            <p className={styles.profession}>
               Desarrolladora Front End / Diseñadora gráfica
             </p>
-            <p className={styles.descripcion}>
+            <p className={styles.description}>
               Estudié en la Universidad Nacional de Lanús mi licenciatura y en
               Coderhouse la carrera de Desarrollo Front End. Soy muy metodica y
               organizada. Y disfruto mucho encontrar solucion a los problemas.
@@ -84,82 +85,14 @@ function AboutMe() {
             </div>
           </div>
         </div>
-        
-          {/* Educacion */}
-          <div>
-            <Educacion/>
-          </div>
-  <div className={styles.container_table}>
-            <div className={styles.cont_subtitle}>
-              <p>Educación</p>
-            </div>
 
-          <div className={styles.container_education}>
-            <div className={styles.cont_design}>
-              <div>
-                <img
-                  src="https://i.postimg.cc/W3C69S2M/design.png"
-                  alt=""
-                ></img>
-              </div>
-              <div>
-                <p className={styles.one}>Febrero 2014 - Diciembre 2021</p>
-                <p className={styles.two}>
-                  Licenciatura en Diseño y <br></br> Comunicación Visual
-                </p>
-                <p className={styles.three}>Universidad Nacional de Lanús</p>
-              </div>
-            </div>
-            <div className={styles.container_line}>
-              <img
-                src="https://i.postimg.cc/pVsFCsL4/Vector-3.png"
-                alt="line"
-              ></img>
-            </div>
-            <div className={styles.cont_dev}>
-              <div>
-                <img src="https://i.postimg.cc/25jw3VcB/dev.png" alt=""></img>
-              </div>
-              <div>
-                <p className={styles.one}>Noviembre 2021 - Julio 2022</p>
-                <p className={styles.two}>
-                  Desarrollo Front End <br></br> React JS
-                </p>
-                <p className={styles.three}>Escuela digital Coderhouse</p>
-              </div>
-            </div>
-          </div>
-          {/* Experiencia */}
-          <div className={styles.cont_subtitle}>
-            <p>Experiencia</p>
-          </div>
-
-          <div className={styles.container_experience}>
-            <div className={styles.cont_chiappini}>
-              <div>
-                <p className={styles.one}>
-                  Mayo 2021 - <br></br> Enero 2022
-                </p>
-                <p className={styles.two}>Diseñadora gráfica</p>
-                <p className={styles.three}>Chiappini + Becker Comunicación</p>
-              </div>
-            </div>
-            <div className={styles.container_line}>
-              <img
-                src="https://i.postimg.cc/pVsFCsL4/Vector-3.png"
-                alt="line"
-              ></img>
-            </div>
-            <div className={styles.cont_mrm}>
-              <div>
-                <p className={styles.one}>
-                  Enero 2022 - <br></br>Actualidad
-                </p>
-                <p className={styles.two}>Desarrolladora web</p>
-                <p className={styles.three}>MRM grupo McCann</p>
-              </div>
-            </div>
-          </div>
+        {/* Educacion */}
+        <div>
+          <Education />
+        </div>
+        {/* Experiencia */}
+        <div>
+          <Experience />
         </div>
       </div>
     </div>
