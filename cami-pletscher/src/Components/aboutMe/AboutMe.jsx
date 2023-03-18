@@ -4,12 +4,14 @@ import Education from "../education/Education";
 import Experience from "../experience/Experience";
 import styles from "./aboutme.module.css";
 import "../styles/global.css";
+import { Link } from "react-router-dom";
+import Portfolio from "../portfolio/Portfolio";
 
 function AboutMe() {
   const [menu, setmenu] = useState(true);
 
   return (
-    <div className={styles.container_about}>
+    <div id="about_me" className={styles.container_about}>
       <div className="show" onClick={() => setmenu(!menu)}>
         menu
       </div>
@@ -95,6 +97,7 @@ function AboutMe() {
           <Experience />
         </div>
       </div>
+      <Portfolio/>
     </div>
   );
 }
