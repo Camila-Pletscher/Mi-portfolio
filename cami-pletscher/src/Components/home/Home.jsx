@@ -27,7 +27,10 @@ function Home() {
           </div>
           <div className={styles.container_buttons}>
             <button className={styles.download}>Descargar cv</button>
-            <button className={styles.contact}>Conoce más</button>
+            <Link to="/start">
+              <button className={styles.contact}>Conoce más</button>
+            </Link>
+            
           </div>
         </div>
         <div className={styles.container_profile}>
