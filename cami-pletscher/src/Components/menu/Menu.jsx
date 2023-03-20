@@ -11,6 +11,7 @@ function Menu(props) {
         <div onClick={props.scrollToAbout}>SOBRE MI</div>
         <div onClick={props.scrollToPortfolio}>PORTFOLIO</div>
         <div onClick={props.scrollToSkills}>SKILLS</div>
+        <div onClick={props.scrollToAchievements}>LOGROS</div>
         <div>CONTACTO</div>
       </div>
     </div>

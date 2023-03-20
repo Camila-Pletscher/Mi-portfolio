@@ -3,13 +3,13 @@ import styles from "./skill.module.css";
 
 function SkillItem({ icon, title, id }) {
   return (
-    <div className={styles.cont_each_skill}>
-      <div className={styles.cont_icon_skill}>
+    <div className={styles.skill_box}>
+
         <img src={icon} alt=""></img>
-      </div>
-      <div className={styles.cont_title_skill}>
+
+
         <p>{title}</p>
-      </div>
+
     </div>
   );
 }

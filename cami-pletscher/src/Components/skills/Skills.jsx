@@ -9,6 +9,7 @@ function Skills() {
 
   const [skill, setSkill] = useState([]);
 
+
   useEffect(() => {
     fetch("../data/skill.json")
       .then((resp) => resp.json())
@@ -31,9 +32,12 @@ function Skills() {
         <img src="https://i.postimg.cc/L6QfJ5BP/Mesa-de-trabajo-16.png" alt=""></img>
       </div>
       <div className={styles.container_skills_all}>
-        <div className={styles.skills_scroll}>
+        <div className={styles.skills_scroll} >
           <div className={styles.marquee_container}>
-<SkillList skills={skill} />
+          <div className={styles.marquee}>
+            <SkillList skills={skill} />
+          </div>
+            
           </div>
         </div>
 

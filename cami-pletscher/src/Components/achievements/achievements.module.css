@@ -4,27 +4,18 @@
     width: 25%;
 }
 
-.container_logros {
-background-color: #ffffff;
-    width: 100%;
+.container_achievements {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 60vh;
+    padding: 2.5rem 2rem 2rem;
     
 }
 
-.container_logros_right {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: flex-start;
-    align-items: center;
-    width: 75%;
-    margin-top: 4em;
-}
 
-.container_divs_logros {
+.container_divs_achievements {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -34,13 +25,13 @@ background-color: #ffffff;
     margin: 5em 0em;
 }
 
-.cont_each_logro {
+.cont_each_achievement {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     width: 55%;
-    background-color: #000000;
+    background-color: #FFE5F0;
     padding: 1.5em;
     margin: 1em;
     height: auto;
@@ -50,13 +41,13 @@ background-color: #ffffff;
     -moz-box-shadow: 9px 12px 34px -3px rgba(0, 0, 0, 0.66);
 }
 
-.cont_certificate_logro {
+.cont_certificate_achievement {
     display: flex;
     width: 35%;
     padding-right: 2em;
 }
 
-.cont_certificate_logro img {
+.cont_certificate_achievement img {
     width: 100%;
 }
 
@@ -64,19 +55,19 @@ background-color: #ffffff;
     width: 60%;
 }
 
-.cont_title_logro {
+.cont_title_achievement {
     color: #FE006E;
     margin-bottom: 1em;
     font-size: 1.5em;
 }
 
-.cont_place_logro {
-    color: #ffffff;
+.cont_place_achievement {
+    color: #000;
     margin-bottom: 1em;
     font-size: 1.2em;
 }
 
-.cont_date_logro {
-    color: #ffffff;
+.cont_date_achievement {
+    color: #000;
     font-size: 1.2em;
 }
