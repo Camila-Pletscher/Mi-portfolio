@@ -19,20 +19,25 @@ function Skills() {
 
   return (
     <div className={styles.container_skills}>
-      <div className="show" onClick={() => setmenu(!menu)}>
+      {/* <div className="show" onClick={() => setmenu(!menu)}>
         menu
       </div>
       {menu && (
         <div className={styles.container_menu}>
           <Menu />
         </div>
-      )}
-      <div className={styles.container_skills_right}>
-        <div className="cont_title">
-          <p>SKILLS</p>
+      )} */}
+      <div className="cont_title"> 
+        <img src="https://i.postimg.cc/L6QfJ5BP/Mesa-de-trabajo-16.png" alt=""></img>
+      </div>
+      <div className={styles.container_skills_all}>
+        <div className={styles.skills_scroll}>
+          <div className={styles.marquee_container}>
+<SkillList skills={skill} />
+          </div>
         </div>
 
-        <SkillList skills={skill} />
+        
       </div>
     </div>
   );

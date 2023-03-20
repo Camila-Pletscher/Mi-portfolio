@@ -10,7 +10,7 @@ function Menu(props) {
       <div className={styles.container_nav}>
         <div onClick={props.scrollToAbout}>SOBRE MI</div>
         <div onClick={props.scrollToPortfolio}>PORTFOLIO</div>
-        <div>SKILLS</div>
+        <div onClick={props.scrollToSkills}>SKILLS</div>
         <div>CONTACTO</div>
       </div>
     </div>
