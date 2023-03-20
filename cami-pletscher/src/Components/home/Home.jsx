@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Menu from "../menu/Menu";
+import Logo from "../logo/Logo";
 import styles from "./home.module.css";
 
 function Home() {
   return (
     <div className={styles.container_home}>
-      <Menu></Menu>
+    <div className={styles.container_logo}>
+      <Logo/>
+    </div>
+      
       <div className={styles.container_all}>
         <div className={styles.container_izq}>
           <div className={styles.container_txt}>

@@ -1,19 +1,17 @@
 import React from "react";
+import Logo from "../logo/Logo";
 
 import styles from "./menu.module.css";
 
 function Menu(props) {
   return (
     <div className={styles.container_logo_nav}>
-      <div className={styles.container_logo}>
-        <img
-          src="https://i.postimg.cc/rsJNGbKY/Logo-personal-web.png"
-          alt=""
-        ></img>
-      </div>
+      <Logo/>
       <div className={styles.container_nav}>
-        <div onClick={props.scrollToAbout}>About</div>
-        <div onClick={props.scrollToPortfolio}>Portfolio</div>
+        <div onClick={props.scrollToAbout}>SOBRE MI</div>
+        <div onClick={props.scrollToPortfolio}>PORTFOLIO</div>
+        <div>SKILLS</div>
+        <div>CONTACTO</div>
       </div>
     </div>
   );

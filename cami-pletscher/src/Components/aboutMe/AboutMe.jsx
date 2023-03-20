@@ -73,16 +73,12 @@ function AboutMe() {
       </div>
 
       {/* Educacion */}
-      <div id="about_me">
+      <div>
         <Education />
       </div>
       {/* Experiencia */}
-      <div id="portfolio">
-        <Experience />
-      </div>
-
       <div>
-        <Portfolio />
+        <Experience />
       </div>
     </div>
   );
