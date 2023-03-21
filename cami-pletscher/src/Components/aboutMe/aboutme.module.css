@@ -125,6 +125,10 @@ body {
   color: #ffffff;
 }
 
+.container_edu {
+  width: 100%;
+}
+
 
 .show {
   display: block;

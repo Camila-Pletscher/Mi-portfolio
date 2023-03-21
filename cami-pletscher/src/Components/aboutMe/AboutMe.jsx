@@ -73,7 +73,7 @@ function AboutMe() {
       </div>
 
       {/* Educacion */}
-      <div>
+      <div className={styles.container_edu}>
         <Education />
       </div>
       {/* Experiencia */}
