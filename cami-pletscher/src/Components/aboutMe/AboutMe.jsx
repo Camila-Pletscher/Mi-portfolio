@@ -1,22 +1,30 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Education from "../education/Education";
 import Experience from "../experience/Experience";
 import styles from "./aboutme.module.css";
 import "../styles/global.css";
 import Portfolio from "../portfolio/Portfolio";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function AboutMe() {
   const [menu, setmenu] = useState(true);
 
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div className={styles.container_about}>
-      <div className="cont_title">
+      <div data-aos="fade-up"
+     data-aos-duration="2500" className="cont_title">
         <img
           src="https://i.postimg.cc/6pDvhPP5/Mesa-de-trabajo-1.png"
           alt="about me"
         ></img>
       </div>
-      <div className={styles.cont_img_info}>
+      <div data-aos="fade-up"
+     data-aos-duration="3000" className={styles.cont_img_info}>
         <div className={styles.cont_img_prof}>
           <img
             src="https://i.postimg.cc/527Ht2vr/selfie-fondo-cuad-2.png"

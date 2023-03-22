@@ -2,9 +2,11 @@ import React, { useRef } from "react";
 import AboutMe from "./aboutMe/AboutMe";
 import Achievements from "./achievements/Achievements";
 import Contact from "./contact/Contact";
+import Footer from "./footer/Footer";
 import Menu from "./menu/Menu";
 import Portfolio from "./portfolio/Portfolio";
 import Skills from "./skills/Skills";
+
 
 function Container() {
   const aboutSection = useRef();
@@ -41,6 +43,9 @@ function Container() {
       </div>
       <div ref={contactSection}>
         <Contact/>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </>
   );
