@@ -1,17 +1,14 @@
-import React from 'react'
-import ProjectItem from './ProjectItem'
+import React from "react";
+import ProjectItem from "./ProjectItem";
 
 function ProjectList(props) {
-
-
-
   return (
     <>
-        {props.projectsFilter.map((project) => (
-        <ProjectItem key={project.id} {... project} />
+      {props.projectsFilter.map((project) => (
+        <ProjectItem key={project.id} {...project} />
       ))}
     </>
-  )
+  );
 }
 
-export default ProjectList
+export default ProjectList;
