@@ -2,15 +2,9 @@ import React, { useEffect, useState } from "react";
 import ProjectList from "./ProjectList";
 import styles from "./portfolio.module.css";
 
-
-
 function Portfolio() {
   const [project, setProject] = useState([]);
-  const [filterValue, setFilterValue] = useState('todo');
-
-
-  // const filterFx = document.querySelector('.filterFx');
-
+  const [filterValue, setFilterValue] = useState("todo");
 
   useEffect(() => {
     fetch("../data/projects.json")
@@ -21,44 +15,19 @@ function Portfolio() {
   }, []);
 
   let projectsFilter = project.filter((p) => {
-    if(filterValue === 'Diseño') {
-      return p.category === 'Diseño';
-    } else if (filterValue === 'Desarrollo') {
-      return p.category === 'Desarrollo';
+    if (filterValue === "Diseño") {
+      return p.category === "Diseño";
+    } else if (filterValue === "Desarrollo") {
+      return p.category === "Desarrollo";
     } else {
       return p;
     }
-  })
+  });
 
   function onFilterValueSelected(e) {
     console.log(e.target.value);
     setFilterValue(e.target.value);
   }
-
-
-
-
-  // function filter() {
-  //     console.log(filterFx.value);
-
-  //     if (filterFx.value == 1) {
-  //       setProject(project);
-  //       console.log(project);
-  //     } else if(filterFx.value == 2) {
-  //       setProject(project.filter ((p) => p.category === "diseño"));
-  //       console.log(project);
-  //     }else if (filterFx.value == 3 ) {
-  //       setProject(project.filter ((p) => p.category === "desarrollo"));
-  //       console.log(project);
-  //     }
-      
-
-  //     renderProjectsFilter();
-  // }
-
-  // function renderProjectsFilter() {
-  //   document.getElementById('cont_projects').innerHTML = `${<ProjectList projects={project} />}`
-  // }
 
   return (
     <div className={styles.container_portfolio}>
@@ -68,11 +37,10 @@ function Portfolio() {
           alt=""
         ></img>
       </div>
-      <div>
+      <div className="filterSelect">
         <label>Filtrar por:</label>
-        <select onChange={(e) => onFilterValueSelected(e)} className="filterFx">
-          <option value="" disabled selected></option>
-          <option value="Todo">Todo</option>
+        <select onChange={(e) => onFilterValueSelected(e)} >
+          <option value="Todo" selected>Todo</option>
           <option value="Diseño">Diseño</option>
           <option value="Desarrollo">Desarrollo</option>
         </select>

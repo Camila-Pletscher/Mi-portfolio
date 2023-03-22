@@ -17,3 +17,18 @@
     margin-bottom: 5em;
     margin-top: 5em;
 }
+
+.filterSelect {
+    display: block;
+}
+
+ label {
+    font-weight: 400;
+    margin: 1em;
+}
+
+select {
+    border:  1px solid #0b0b0b;
+    padding: 1em;
+    border-radius: 10px;
+}

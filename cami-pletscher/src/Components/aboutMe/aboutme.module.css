@@ -13,6 +13,8 @@ body {
   background-color: #f9f9f9;
 }
 
+
+
 .container_about {
   background-color: #f9f9f9;
   width: 100%;
@@ -98,7 +100,11 @@ body {
 .cont_red div img {
   width: 40px;
   margin-right: 0.5em;
+}
 
+.cont_red div img:hover {
+  width: 45px;
+  margin-bottom: 5px;
 }
 
 
@@ -123,6 +129,15 @@ body {
   margin-bottom: 1em;
   margin-top: 1em;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.container_buttons button a {
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #000000;
 }
 
 .container_edu {

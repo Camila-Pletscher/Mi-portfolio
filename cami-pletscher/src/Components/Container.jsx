@@ -30,7 +30,7 @@ function Container() {
         scrollToContact={scrollToContact}
       ></Menu>
       <div ref={aboutSection}>
-        <AboutMe />
+        <AboutMe scrollToContact={scrollToContact} />
       </div>
       <div ref={portfolioSection}>
         <Portfolio />

@@ -1,30 +1,34 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Education from "../education/Education";
 import Experience from "../experience/Experience";
 import styles from "./aboutme.module.css";
 import "../styles/global.css";
-import Portfolio from "../portfolio/Portfolio";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import cv from "../../Camila-Pletscher-cv-2023_compressed.pdf";
 
-function AboutMe() {
-  const [menu, setmenu] = useState(true);
-
+function AboutMe(props) {
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
 
   return (
     <div className={styles.container_about}>
-      <div data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center" className="cont_title">
+      <div
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-center"
+        className="cont_title"
+      >
         <img
           src="https://i.postimg.cc/6pDvhPP5/Mesa-de-trabajo-1.png"
           alt="about me"
         ></img>
       </div>
-      <div data-aos="fade-up"
-     data-aos-duration="3000" className={styles.cont_img_info}>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        className={styles.cont_img_info}
+      >
         <div className={styles.cont_img_prof}>
           <img
             src="https://i.postimg.cc/527Ht2vr/selfie-fondo-cuad-2.png"
@@ -45,46 +49,56 @@ function AboutMe() {
             todo del diseño digital
           </p>
           <div className={styles.cont_redes}>
-            <div className={styles.cont_red}>
-              <div>
-                <img
-                  src="https://i.postimg.cc/50TL2qYj/Mesa-de-trabajo-6-copia.png"
-                  alt=""
-                ></img>
+            <a href="https://www.behance.net/camilapletscher1" target={"_blank"} rel="noreferrer">
+              <div className={styles.cont_red}>
+                <div>
+                  <img
+                    src="https://i.postimg.cc/50TL2qYj/Mesa-de-trabajo-6-copia.png"
+                    alt=""
+                  ></img>
+                </div>
+                <div>Behance</div>
               </div>
-              <div>Behance</div>
-            </div>
-            <div className={styles.cont_red}>
-              <div>
-                <img
-                  src="https://i.postimg.cc/gJn3pB0f/Mesa-de-trabajo-4-copia.png"
-                  alt=""
-                ></img>
+            </a>
+            <a href="https://github.com/Camila-Pletscher" target={"_blank"} rel="noreferrer">
+              <div className={styles.cont_red}>
+                <div>
+                  <img
+                    src="https://i.postimg.cc/gJn3pB0f/Mesa-de-trabajo-4-copia.png"
+                    alt=""
+                  ></img>
+                </div>
+                <div>Git hub</div>
               </div>
-              <div>Git hub</div>
-            </div>
-            <div className={styles.cont_red}>
-              <div>
-                <img
-                  src="https://i.postimg.cc/434zL3R4/Mesa-de-trabajo-22.png"
-                  alt=""
-                ></img>
+            </a>
+            <a href="https://www.workana.com/freelancer/6257ae499ed73d584ce610beda7e8d0c" target={"_blank"} rel="noreferrer">
+              <div className={styles.cont_red}>
+                <div>
+                  <img
+                    src="https://i.postimg.cc/434zL3R4/Mesa-de-trabajo-22.png"
+                    alt=""
+                  ></img>
+                </div>
+                <div>Workana</div>
               </div>
-              <div>workana</div>
-            </div>
+            </a>
           </div>
           <div className={styles.container_buttons}>
-            <button>Descargar cv</button>
-            <button>Contacto</button>
+            <button>
+              <a href={cv} download="Camila-Pletscher-CV">
+                {""}
+                Descargar cv
+              </a>
+            </button>
+            <button onClick={props.scrollToContact}>Contacto</button>
           </div>
         </div>
       </div>
 
-      {/* Educacion */}
       <div className={styles.container_edu}>
         <Education />
       </div>
-      {/* Experiencia */}
+
       <div>
         <Experience />
       </div>
