@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../logo/Logo";
 import styles from "./home.module.css";
+import cv from "../../Camila-Pletscher-cv-2023_compressed.pdf";
 
 function Home() {
   return (
@@ -29,7 +30,16 @@ function Home() {
             </div>
           </div>
           <div className={styles.container_buttons}>
-            <button className={styles.download}>Descargar cv</button>
+
+            <button className={styles.download}>
+            <a href={cv} download="Camila-Pletscher-CV">
+              {''}
+              Descargar cv
+            </a>
+            
+            </button>
+
+            
             <Link to="/start">
               <button className={styles.contact}>Conoce más</button>
             </Link>

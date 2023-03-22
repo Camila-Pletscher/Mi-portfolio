@@ -12,7 +12,7 @@ function Menu(props) {
         <div onClick={props.scrollToPortfolio}>PORTFOLIO</div>
         <div onClick={props.scrollToSkills}>SKILLS</div>
         <div onClick={props.scrollToAchievements}>LOGROS</div>
-        <div>CONTACTO</div>
+        <div onClick={props.scrollToContact}>CONTACTO</div>
       </div>
     </div>
   );

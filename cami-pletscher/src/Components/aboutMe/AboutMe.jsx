@@ -17,7 +17,7 @@ function AboutMe() {
   return (
     <div className={styles.container_about}>
       <div data-aos="fade-up"
-     data-aos-duration="2500" className="cont_title">
+     data-aos-anchor-placement="bottom-center" className="cont_title">
         <img
           src="https://i.postimg.cc/6pDvhPP5/Mesa-de-trabajo-1.png"
           alt="about me"

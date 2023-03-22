@@ -4,7 +4,8 @@ import styles from './education.module.css'
 function Education() {
   return (
     <div className={styles.container_education}>
-        <div className='cont_title'>
+        <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center" className='cont_title'>
             <img src='https://i.postimg.cc/4d1Hsxxm/Mesa-de-trabajo-13.png' alt=''></img>
         </div>
         <div className={styles.cont_info_edu}>
