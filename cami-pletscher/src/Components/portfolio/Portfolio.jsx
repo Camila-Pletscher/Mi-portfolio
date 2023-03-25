@@ -16,9 +16,9 @@ function Portfolio() {
 
   let projectsFilter = project.filter((p) => {
     if (filterValue === "Diseño") {
-      return p.category === "Diseño";
+      return p.category === "Diseño" || p.category === "Desarrollo, Diseño";
     } else if (filterValue === "Desarrollo") {
-      return p.category === "Desarrollo";
+      return p.category === "Desarrollo" || p.category === "Desarrollo, Diseño";
     } else {
       return p;
     }
