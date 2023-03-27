@@ -8,11 +8,18 @@ function Menu(props) {
     <div className={styles.container_logo_nav}>
       <Logo/>
       <div className={styles.container_nav}>
-        <div onClick={props.scrollToAbout}>SOBRE MI</div>
-        <div onClick={props.scrollToPortfolio}>PORTFOLIO</div>
-        <div onClick={props.scrollToSkills}>SKILLS</div>
-        <div onClick={props.scrollToAchievements}>LOGROS</div>
-        <div onClick={props.scrollToContact}>CONTACTO</div>
+        <div onClick={props.scrollToAbout}>
+        <p>SOBRE MI</p></div>
+        <div onClick={props.scrollToPortfolio}>
+        <p>
+          PORTFOLIO
+        </p></div>
+        <div onClick={props.scrollToSkills}>
+        <p>SKILLS</p></div>
+        <div onClick={props.scrollToAchievements}>
+        <p>LOGROS</p></div>
+        <div onClick={props.scrollToContact}>
+        <p>CONTACTO</p></div>
       </div>
     </div>
   );
