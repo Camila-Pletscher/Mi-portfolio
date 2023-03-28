@@ -1,0 +1,40 @@
+.container_services {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.title_subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFE5F0;
+}
+
+.subtitle {
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    color: #000000;
+    line-height: 180%;
+}
+
+.subtitle p span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.subtitle div {
+text-decoration: underline;
+display: inline;
+font-weight: 600;
+cursor: pointer;
+}
+
+.subtitle div:hover {
+    color: #FE006E;
+}
