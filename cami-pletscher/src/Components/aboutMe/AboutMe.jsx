@@ -14,21 +14,15 @@ function AboutMe(props) {
 
   return (
     <div className={styles.container_about}>
-      <div
-        data-aos="fade-up"
-        data-aos-anchor-placement="bottom-center"
-        className="cont_title"
-      >
+      <div data-aos="fade-up"
+     data-aos-duration="3000" className="cont_title">
         <img
           src="https://i.postimg.cc/6pDvhPP5/Mesa-de-trabajo-1.png"
           alt="about me"
         ></img>
       </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="3000"
-        className={styles.cont_img_info}
-      >
+      <div data-aos="fade-up"
+     data-aos-duration="3000" className={styles.cont_img_info}>
         <div className={styles.cont_img_prof}>
           <img
             src="https://i.postimg.cc/527Ht2vr/selfie-fondo-cuad-2.png"
@@ -49,7 +43,11 @@ function AboutMe(props) {
             todo del diseño digital
           </p>
           <div className={styles.cont_redes}>
-            <a href="https://www.behance.net/camilapletscher1" target={"_blank"} rel="noreferrer">
+            <a
+              href="https://www.behance.net/camilapletscher1"
+              target={"_blank"}
+              rel="noreferrer"
+            >
               <div className={styles.cont_red}>
                 <div>
                   <img
@@ -60,7 +58,11 @@ function AboutMe(props) {
                 <div>Behance</div>
               </div>
             </a>
-            <a href="https://github.com/Camila-Pletscher" target={"_blank"} rel="noreferrer">
+            <a
+              href="https://github.com/Camila-Pletscher"
+              target={"_blank"}
+              rel="noreferrer"
+            >
               <div className={styles.cont_red}>
                 <div>
                   <img
@@ -71,7 +73,11 @@ function AboutMe(props) {
                 <div>Git hub</div>
               </div>
             </a>
-            <a href="https://www.workana.com/freelancer/6257ae499ed73d584ce610beda7e8d0c" target={"_blank"} rel="noreferrer">
+            <a
+              href="https://www.workana.com/freelancer/6257ae499ed73d584ce610beda7e8d0c"
+              target={"_blank"}
+              rel="noreferrer"
+            >
               <div className={styles.cont_red}>
                 <div>
                   <img

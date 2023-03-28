@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./projectItem.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function ProjectItem({ image, title, project, code, view, text, tools, gitHub }) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className={styles.container_item_project}>
+    <div data-aos="flip-up" data-aos-duration="1300" className={styles.container_item_project}>
       <div className={styles.container_info}>
         <div className={styles.cont_img_title}>
           <img src={image} alt=""></img>

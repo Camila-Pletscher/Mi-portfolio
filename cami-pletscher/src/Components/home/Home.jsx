@@ -5,6 +5,7 @@ import styles from "./home.module.css";
 import cv from "../../Camila-Pletscher-cv-2023_compressed.pdf";
 
 function Home() {
+  
   return (
     <div className={styles.container_home}>
       <div className={styles.container_logo}>

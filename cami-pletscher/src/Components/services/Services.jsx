@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ServiceList from "./ServiceList";
 import styles from "./services.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Services({ scrollToContact }) {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
     const services = [
         {
@@ -37,13 +43,13 @@ function Services({ scrollToContact }) {
   return (
     <div className={styles.container_services}>
       <div className={styles.title_subtitle}>
-        <div className="cont_title">
+        <div data-aos="zoom-out" className="cont_title">
           <img
             src="https://i.postimg.cc/Gms0qdzC/Mesa-de-trabajo-20.png"
             alt=""
           ></img>
         </div>
-        <div className={styles.subtitle}>
+        <div data-aos="zoom-in" className={styles.subtitle}>
           <p>
             Como <span>diseñadora gráfica y web</span> llevo a cabo sitios web
             con las últimas tendencias en diseño y programación. Siempre atenta
@@ -51,7 +57,7 @@ function Services({ scrollToContact }) {
             conjunta y asi lograr una <span>rápida y eficaz</span> solución a
             cada problema, asesorando y coordinando hasta el último detalle. Si
             tenes alguna consulta, no dudes en{" "}
-            <div data-replace="contacrme" onClick={scrollToContact}>
+            <div onClick={scrollToContact}>
               <span>contactarme</span>
             </div>
             .

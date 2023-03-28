@@ -1,9 +1,15 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import styles from './contact.module.css'
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -33,10 +39,10 @@ function Contact() {
 
   return (
     <div className={styles.container_contact}>
-      <div className='cont_title'>
+      <div data-aos="zoom-out" className='cont_title'>
         <img src='https://i.postimg.cc/7YtJ40fc/Mesa-de-trabajo-18.png' alt=''></img>
       </div>
-      <div className={styles.cont_form}>
+      <div data-aos="zoom-in" className={styles.cont_form}>
       <form ref={form} onSubmit={sendEmail}>
         <div className={styles.cont_name_email}>
           <div className={styles.name}>

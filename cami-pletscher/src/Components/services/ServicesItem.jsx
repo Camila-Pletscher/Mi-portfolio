@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './services.module.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function ServicesItem({image, title, text}) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className={styles.container_each_service}>
+    <div data-aos="flip-left" data-aos-duration="1500" className={styles.container_each_service}>
           <div className={styles.cont_img}>
             <img
               src={image}

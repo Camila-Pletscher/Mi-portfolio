@@ -2,8 +2,13 @@ import React, { useEffect, useState } from "react";
 import styles from "./skill.module.css";
 import "../styles/global.css";
 import SkillList from "./SkillList";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Skills() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   const [skill, setSkill] = useState([]);
 
@@ -17,13 +22,13 @@ function Skills() {
 
   return (
     <div className={styles.container_skills}>
-      <div className="cont_title">
+      <div data-aos="zoom-out" className="cont_title">
         <img
           src="https://i.postimg.cc/L6QfJ5BP/Mesa-de-trabajo-16.png"
           alt=""
         ></img>
       </div>
-      <div className={styles.container_skills_all}>
+      <div data-aos="fade-left" className={styles.container_skills_all}>
         <SkillList skills={skill} />
       </div>
     </div>

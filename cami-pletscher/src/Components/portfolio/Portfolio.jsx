@@ -1,8 +1,15 @@
 import React, { useEffect, useState } from "react";
 import ProjectList from "./ProjectList";
 import styles from "./portfolio.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Portfolio() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+
   const [project, setProject] = useState([]);
   const [filterValue, setFilterValue] = useState("todo");
 
@@ -31,13 +38,13 @@ function Portfolio() {
 
   return (
     <div className={styles.container_portfolio}>
-      <div className="cont_title">
+      <div data-aos="zoom-out" className="cont_title">
         <img
           src="https://i.postimg.cc/x1kmMQt4/Mesa-de-trabajo-15.png"
           alt=""
         ></img>
       </div>
-      <div className="filterSelect">
+      <div data-aos="zoom-out" className="filterSelect">
         <label>Filtrar por:</label>
         <select onChange={(e) => onFilterValueSelected(e)} >
           <option value="Todo" selected>Todo</option>
