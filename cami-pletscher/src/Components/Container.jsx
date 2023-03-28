@@ -55,6 +55,9 @@ function Container() {
       <div>
         <Footer/>
       </div>
+      <div onClick={scrollToAbout} className="volver">
+        <i className="material-icons">arrow_upward</i>
+      </div>
     </>
   );
 }

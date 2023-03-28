@@ -41,11 +41,11 @@ body {
 .container_all {
   width: 100%;
   display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-    margin-top: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .container_profile {
@@ -63,10 +63,13 @@ body {
 .cont_hola p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  color: #000000;
-  font-size: 3em;
+  font-size: 3.5em;
+  letter-spacing: 1.5px;
   margin: 0;
   padding: 0;
+  -webkit-text-stroke: 1px #000000;
+  color: transparent;
+  stroke: #000000 1px;
 }
 
 .cont_soy p {
@@ -109,7 +112,6 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-
 }
 
 .container_buttons button {
@@ -124,27 +126,23 @@ body {
   padding: 0.5em 0;
   margin-bottom: 1em;
   margin-top: 1em;
+  cursor: pointer;
 }
 
-.show {
-  display: none;
-  visibility: hidden;
-}
-
-.profile_mobile {
-  display: none;
-  visibility: hidden;
+.container_buttons button:hover {
+  background-color: #fe006e;
 }
 
 .container_footer {
   display: flex;
-  width: 100%;
-  justify-content: space-around;
+  width: 80%;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
   position: absolute;
   bottom: 0;
+  margin-bottom: 1.5em;
 }
 
 .cont_block_foot {
@@ -154,11 +152,14 @@ body {
   align-items: center;
   width: 25%;
   bottom: 0%;
-
 }
 
 .cont_block_foot img {
   width: 50px;
+}
+
+.cont_block_foot img:hover {
+  border: #fe006e 1px solid;
 }
 
 .line img {
@@ -167,7 +168,6 @@ body {
 
 .container_logo {
   display: flex;
-  width: 100%;
+  width: 90%;
   justify-content: flex-start;
-  margin-left: 5em;
 }

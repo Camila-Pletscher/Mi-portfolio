@@ -13,16 +13,6 @@
     background-color: #f9f9f9;
   }
 
-  .show {
-    display: none;
-    visibility: hidden;
-  }
-
-  .cont_title img {
-
-
-}
-
 .cont_title {
 
     width: 80%;
@@ -33,6 +23,24 @@
     align-content: center;
     align-items: center;
 
+}
+
+.volver {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  background-color: black;
+  border-radius: 50px;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.volver i {
+  color: #f9f9f9;
+}
+
+.volver:hover {
+  background-color: #FE006E;
 }
 
 
