@@ -101,11 +101,11 @@ function AboutMe(props) {
         </div>
       </div>
 
-      <div className={styles.container_edu}>
+      <div className="container">
         <Education />
       </div>
 
-      <div>
+      <div className="container">
         <Experience />
       </div>
     </div>

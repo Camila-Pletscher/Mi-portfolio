@@ -44,7 +44,7 @@ function Portfolio() {
           alt=""
         ></img>
       </div>
-      <div data-aos="zoom-out" className="filterSelect">
+      <div data-aos="zoom-out" className={styles.filterSelect}>
         <label>Filtrar por:</label>
         <select onChange={(e) => onFilterValueSelected(e)} >
           <option value="Todo" selected>Todo</option>

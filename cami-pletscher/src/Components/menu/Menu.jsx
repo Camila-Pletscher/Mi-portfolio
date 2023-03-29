@@ -6,7 +6,10 @@ import styles from "./menu.module.css";
 function Menu(props) {
   return (
     <div className={styles.container_logo_nav}>
+    <div className={styles.container_logo}>
       <Logo />
+    </div>
+      
       <div className={styles.container_nav}>
         <div onClick={props.scrollToAbout}>
           <p>SOBRE MI</p>

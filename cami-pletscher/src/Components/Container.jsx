@@ -8,7 +8,6 @@ import Portfolio from "./portfolio/Portfolio";
 import Services from "./services/Services";
 import Skills from "./skills/Skills";
 
-
 function Container() {
   const aboutSection = useRef();
   const servicesSection = useRef();
@@ -21,8 +20,9 @@ function Container() {
   const scrollToServices = () => servicesSection.current.scrollIntoView();
   const scrollToPortfolio = () => portfolioSection.current.scrollIntoView();
   const scrollToSkills = () => skillsSection.current.scrollIntoView();
-  const scrollToAchievements = () => achievementsSection.current.scrollIntoView();
-  const scrollToContact = () => contactSection.current.scrollIntoView()
+  const scrollToAchievements = () =>
+    achievementsSection.current.scrollIntoView();
+  const scrollToContact = () => contactSection.current.scrollIntoView();
   return (
     <>
       <Menu
@@ -33,27 +33,27 @@ function Container() {
         scrollToAchievements={scrollToAchievements}
         scrollToContact={scrollToContact}
       ></Menu>
-      <div ref={aboutSection}>
+      <div className="container" ref={aboutSection}>
         <AboutMe scrollToContact={scrollToContact} />
       </div>
-      <div ref={servicesSection}>
+      <div className="container" ref={servicesSection}>
         <Services scrollToContact={scrollToContact} />
       </div>
-      
-      <div ref={portfolioSection}>
+
+      <div className="container" ref={portfolioSection}>
         <Portfolio />
       </div>
-      <div ref={skillsSection}>
-        <Skills/>
+      <div className="container" ref={skillsSection}>
+        <Skills />
       </div>
-      <div ref={achievementsSection}>
-        <Achievements/>
+      <div className="container" ref={achievementsSection}>
+        <Achievements />
       </div>
-      <div ref={contactSection}>
-        <Contact/>
+      <div className="container" ref={contactSection}>
+        <Contact />
       </div>
-      <div>
-        <Footer/>
+      <div className="container">
+        <Footer />
       </div>
       <div onClick={scrollToAbout} className="volver">
         <i className="material-icons">arrow_upward</i>

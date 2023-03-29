@@ -11,17 +11,17 @@
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: flex-start;
+  width: 90%;
 }
 
 .cont_each_exp {
   background-color: #ffe5f0;
-  width: 400px;
+  width: 30%;
   height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 2em;
-  margin: 1.5em;
   border-radius: 1em;
 }
 .pad_txt {
@@ -61,4 +61,27 @@
   margin-top: 0.5em;
 }
 
+ /* RESPONSIVE  =========================================================================  */
+
+/* Tablets en horizonal y escritorios normales */
+@media (max-width: 1212px) { 
+  .cont_each_exp {
+    width: 350px;
+    height: 330px;
+  }
+
+  .one {
+    font-size: 1.5em;
+  }
+
+  .two {
+    font-size: 1.7em;
+  }
+
+  .three {
+    font-size: 1.2em;
+  }
+
+
+}
 

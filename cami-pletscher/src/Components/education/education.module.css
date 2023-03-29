@@ -8,6 +8,7 @@
     margin-top: 5em;
     margin-bottom: 5em;
     padding-bottom: 5em;
+    width: 100%;
 }
 
 .cont_info_edu {
@@ -16,28 +17,19 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-start;
+    width: 80%;
 }
 
 .cont_design, .cont_dev {
     background-color: #ffffff;
     border-radius: 1em;
     padding: 2em;
-    margin: 2em;
     height: 300px;
-}
-
-
-.cont_design,
-.cont_dev,
-.cont_chiappini,
-.cont_mrm {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  margin-top: 2em;
-  width: 400px;
-  margin-bottom: 1.5em;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .cont_design .one {
@@ -82,3 +74,30 @@
     margin-top: 0.8em;
   }
   
+
+  /* RESPONSIVE  =========================================================================  */
+
+/* Tablets en horizonal y escritorios normales */
+@media (max-width: 1212px) {
+.cont_design, .cont_dev {
+  width: 300px;
+  height: 250px;
+}
+
+.cont_design .one {
+  font-size: 1.2em;
+}
+
+.cont_dev .one {
+  font-size: 1.2em;
+}
+
+.cont_design .two {
+  font-size: 1.5em;
+}
+
+.cont_dev .two {
+  font-size: 1.5em;
+}
+
+}
