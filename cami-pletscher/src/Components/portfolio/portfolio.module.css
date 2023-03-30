@@ -40,15 +40,12 @@ select {
  /* RESPONSIVE  =========================================================================  */
 
 /* Tablets en horizonal y escritorios normales */
-@media (max-width: 1212px) {  
+@media (max-width: 972px) {  
 
-    body {
-        max-width: 1212px;
-        max-width: 100%;
-    }
 
     .cont_project_list {
         width: 90%;
     }
+
 
 }

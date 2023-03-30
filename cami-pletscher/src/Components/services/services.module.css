@@ -79,3 +79,10 @@
   margin-top: 2em;
   width: 80%;
 }
+
+
+@media (max-width:972px) {
+  .cont_list_services {
+    width: 90%;
+  }
+}

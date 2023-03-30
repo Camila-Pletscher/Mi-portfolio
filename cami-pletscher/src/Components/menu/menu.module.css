@@ -8,6 +8,10 @@
     margin-top: 2em;
 }
 
+.container_nav_mob  {
+  display: none;
+}
+
 .container_nav {
   display: flex;
   width: 70%;
@@ -36,4 +40,14 @@
 
 .container_logo {
   width: 20%;
+}
+
+@media (max-width: 612px) {
+  .container_nav {
+    display: none;
+  }
+
+  .container_nav_mob {
+    display: flex;
+  }
 }

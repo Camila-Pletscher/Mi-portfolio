@@ -153,18 +153,37 @@ button:hover {
 
 /* Tablets en horizonal y escritorios normales */
 @media (max-width: 1212px) {
-  /* .cont_description {
-    width: 50%;
+  .cont_description {
+    width: 49%;
   }
 
   .cont_img_info {
     width: 78%;
-  } */
+  }
+
+  .cont_img_prof {
+    width: 44%;
+  }
 }
 
-/* Móviles en horizontal o tablets en vertical */
 
-@media (max-width: 767px) {
+@media (max-width: 972px) {
+
+
+  .cont_img_info {
+    width: 95%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .cont_img_prof {
+    width: 45%;
+    height: auto;
+  }
+
+  .cont_description {
+    width: 50%;
+  }
 }
 
 /* Móviles en vertical */
