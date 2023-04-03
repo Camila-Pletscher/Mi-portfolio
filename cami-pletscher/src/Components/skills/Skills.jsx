@@ -4,6 +4,7 @@ import "../styles/global.css";
 import SkillList from "./SkillList";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Marquee from "react-fast-marquee";
 
 function Skills() {
   useEffect(() => {
@@ -28,9 +29,12 @@ function Skills() {
           alt=""
         ></img>
       </div>
-      <div data-aos="fade-left" className={styles.container_skills_all}>
-        <SkillList skills={skill} />
+      <div className={styles.skillsContainer}>
+<SkillList skills={skill} />
+
       </div>
+        
+      
     </div>
   );
 }

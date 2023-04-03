@@ -86,3 +86,17 @@
     width: 90%;
   }
 }
+
+@media (max-width:612px) {
+  .subtitle {
+    width: 80%;
+  }
+
+  .cont_list_services {
+    width: 95%;
+  }
+
+  .container_each_service {
+    width: 40%;
+  }
+}

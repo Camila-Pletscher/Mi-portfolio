@@ -143,3 +143,24 @@
         transform: translate(4%, 312%);
     }
 }
+
+@media (max-width:612px) {
+    .container_item_project {
+        width: 80%;
+    }
+
+    .hover_action_tech {
+        font-size: 1em;
+        height: 45px;
+        transform: translate(110%,354%);
+    }
+
+    .container_item_project:hover .hover_action_tech {
+        transform: translate(4%, 360%);
+    }
+
+    .hover_action {
+        font-size: 1em;
+        height: 140px;
+    }
+}

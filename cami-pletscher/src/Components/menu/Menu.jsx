@@ -57,7 +57,7 @@ function Menu(props) {
         </div>
         </div>
       ) : (
-        <div onClick={()=>setMenu(!menu)}>abrir</div>
+        <div className={styles.icon_menu} onClick={()=>setMenu(!menu)}>abrir</div>
       )}
     </div>
   );

@@ -186,6 +186,21 @@ button:hover {
   }
 }
 
-/* Móviles en vertical */
-@media (max-width: 480px) {
+@media (max-width: 612px) {
+  .cont_img_info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cont_img_prof {
+    width: 60%;
+    margin-bottom: 1.5em;
+  }
+
+  .cont_description {
+    width: 80%;
+    margin: 0;
+  }
+
 }

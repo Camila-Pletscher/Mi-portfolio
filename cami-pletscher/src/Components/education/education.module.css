@@ -101,3 +101,13 @@
 }
 
 }
+
+@media (max-width:612px) {
+  .cont_info_edu {
+    flex-wrap: wrap;
+  }
+
+  .cont_design {
+    margin-bottom: 1.5em;
+  }
+}

@@ -12,6 +12,10 @@
   display: none;
 }
 
+.icon_menu {
+  display: none;
+}
+
 .container_nav {
   display: flex;
   width: 70%;
@@ -42,6 +46,8 @@
   width: 20%;
 }
 
+
+
 @media (max-width: 612px) {
   .container_nav {
     display: none;
@@ -49,5 +55,9 @@
 
   .container_nav_mob {
     display: flex;
+  }
+
+  .icon_menu {
+    display: block;
   }
 }

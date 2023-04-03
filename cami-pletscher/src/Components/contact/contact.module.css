@@ -48,7 +48,6 @@ textarea {
 
 label {
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
     margin-bottom: 1em;
 
 }
@@ -88,4 +87,15 @@ form {
     color: #f9f9f9;
     font-weight: 600;
     font-size: 1em;
+}
+
+
+@media (max-width:612px) {
+    .cont_form {
+        width: 80%;
+    }
+
+    form {
+        width: 100%;
+    }
 }
