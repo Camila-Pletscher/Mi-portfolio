@@ -204,3 +204,21 @@ button:hover {
   }
 
 }
+
+@media (max-width:444px){
+  .cont_redes div p {
+    display: none;
+  }
+
+  .container_buttons {
+    flex-direction: column;
+    margin-top: 1em;
+  }
+
+  .container_buttons button {
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+
+  }
+}

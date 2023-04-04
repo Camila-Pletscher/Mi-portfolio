@@ -55,7 +55,7 @@ function AboutMe(props) {
                     alt=""
                   ></img>
                 </div>
-                <div>Behance</div>
+                <div><p>Behance</p></div>
               </div>
             </a>
             <a
@@ -70,7 +70,7 @@ function AboutMe(props) {
                     alt=""
                   ></img>
                 </div>
-                <div>Git hub</div>
+                <div><p>Git hub</p></div>
               </div>
             </a>
             <a
@@ -85,7 +85,7 @@ function AboutMe(props) {
                     alt=""
                   ></img>
                 </div>
-                <div>Workana</div>
+                <div><p>Workana</p></div>
               </div>
             </a>
           </div>
