@@ -100,3 +100,15 @@
     width: 40%;
   }
 }
+
+
+@media (max-width:444px) {
+  .container_each_service {
+    width: 70%;
+    height: 250px;
+  }
+
+  .serv_text {
+    width: 250px;
+  }
+}

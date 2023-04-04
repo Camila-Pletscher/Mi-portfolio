@@ -22,20 +22,20 @@ function Skills() {
   }, []);
 
   return (
-    <div className={styles.container_skills}>
+    <>
       <div data-aos="zoom-out" className="cont_title">
         <img
           src="https://i.postimg.cc/L6QfJ5BP/Mesa-de-trabajo-16.png"
           alt=""
         ></img>
       </div>
-      <div className={styles.skillsContainer}>
-<SkillList skills={skill} />
-
+      <div className={styles.skills_container}>
+        <SkillList skills={skill} />
       </div>
-        
-      
-    </div>
+
+
+    </>
+
   );
 }
 

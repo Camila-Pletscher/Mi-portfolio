@@ -87,3 +87,38 @@
         width: 100%;
     }
 }
+
+@media (max-width:444px){
+    .cont_each_achievement {
+        flex-direction: column;
+
+    }
+
+    .cont_certificate_achievement {
+        width: 90%;
+        padding: 1em;
+    }
+
+    .container_info {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cont_title_achievement p {
+        text-align: center;
+    }
+
+    .cont_place_achievement p {
+        text-align: center;
+    }
+
+    .cont_date_achievement p {
+        text-align: center;
+    }
+
+    .container_divs_achievements {
+        margin: 0;
+    }
+}

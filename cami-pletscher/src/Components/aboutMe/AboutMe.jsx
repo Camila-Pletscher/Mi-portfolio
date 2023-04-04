@@ -30,7 +30,7 @@ function AboutMe(props) {
           ></img>
         </div>
         <div className={styles.cont_description}>
-          <p className={styles.name}>Mi nombre es Camila Pletscher.</p>
+          <p className={styles.name}><span className="hide_in_mobile">Mi nombre es</span> <span className="show_in_mobile">Soy</span> Camila Pletscher.</p>
           <p className={styles.profession}>
             Desarrolladora Front End / Diseñadora gráfica
           </p>
