@@ -43,7 +43,7 @@ function Container() {
       <div className="container" ref={portfolioSection}>
         <Portfolio />
       </div>
-      <div className="container" ref={skillsSection}>
+      <div className="container_skills" ref={skillsSection}>
         <Skills />
       </div>
       <div className="container" ref={achievementsSection}>

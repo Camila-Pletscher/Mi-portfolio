@@ -53,7 +53,7 @@ function Home() {
       </div>
       <div className={styles.container_footer}>
         <div className={styles.cont_block_foot}>
-          <div>Mi trabajo en</div>
+          <div><p>Mi trabajo en</p></div>
           <div>
             <a href="https://github.com/Camila-Pletscher">
               <img
@@ -84,7 +84,7 @@ function Home() {
           ></img>
         </div>
         <div className={styles.cont_block_foot}>
-          <div>Encontrame en</div>
+          <div><p>Encontrame en</p></div>
           <div>
             <a href="https://www.workana.com/freelancer/6257ae499ed73d584ce610beda7e8d0c">
               <img

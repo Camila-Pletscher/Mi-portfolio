@@ -54,6 +54,35 @@
 
 }
 
-@media (max-width: 1512px) {
+@media (max-width: 444px) {
+.skillsContainer {
+  padding: 0.5em;
+  margin: 1rem 0;
+}
 
+.skillScroll {
+  width: 100%;
+  margin: 0;
+}
+
+.skill_box {
+  width: 150px;
+  height: 135px;
+  margin: 1.2rem;
+  padding: 2rem 1rem;
+}
+
+.skill_box img {
+  height: 70px;
+}
+
+.skill_box p {
+  font-size: 1.2em;
+  margin-top: 1rem;
+}
+
+.container_skills {
+  padding: 0.5rem;
+  min-height: 100%;
+}
 }

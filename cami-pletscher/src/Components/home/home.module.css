@@ -282,3 +282,52 @@ body {
     padding: 0;
   }
 }
+
+@media (max-width:444px) {
+
+  .cont_soy p {
+    font-size: 3.5em;
+  }
+
+  .cont_anclaje p {
+    font-size: 1.3em;
+  }
+
+  .container_izq {
+    width: 85%;
+  }
+
+  .cont_description p {
+    font-size: 1.4em;
+  }
+
+
+  .container_buttons button {
+    font-size: 1.2em;
+    width: 170px;
+
+  }
+
+  .container_profile {
+    width: 85%;
+    margin-top: 2.5em;
+  }
+
+  .container_footer {
+    margin-bottom: 1.5em;
+    width: 80%;
+
+  }
+
+  .cont_block_foot {
+    justify-content: center;
+  }
+
+  .cont_block_foot p {
+    display: none;
+  }
+
+  .cont_block_foot img {
+    margin: 0 0.3em;
+  }
+}
