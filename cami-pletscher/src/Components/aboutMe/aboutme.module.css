@@ -234,4 +234,8 @@ button:hover {
   .cont_red {
     margin: 0;
   }
+
+  .cont_description span:hover {
+    color: #fe006e;
+  }
 }

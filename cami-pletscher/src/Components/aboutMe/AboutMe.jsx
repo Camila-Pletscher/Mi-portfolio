@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Education from "../education/Education";
 import Experience from "../experience/Experience";
 import styles from "./aboutme.module.css";
@@ -11,6 +11,8 @@ function AboutMe(props) {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  const [read, setRead] = useState(false);
 
   return (
     <div className={styles.container_about}>
@@ -39,14 +41,26 @@ function AboutMe(props) {
           <p className={styles.profession}>
             Desarrolladora Front End / Diseñadora gráfica
           </p>
+          <div className="show_in_mobile">
+          <p className={styles.description}>
+            Estudié en la Universidad Nacional de Lanús mi licenciatura y en
+            Coderhouse la carrera de Desarrollo Front End. Soy muy metodica y
+            organizada. {read ? (<span className={styles.read_more}>Y disfruto mucho encontrar solucion a los problemas. Es
+            por eso que a punto de concluir mi camino en la UnLa descubri que mi
+            futuro profesional estaria en la programación, pero sin alejarme del
+            todo del diseño digital. Soy una gran apasionada por el deporte no solo para practicarlo sino también para observarlo. Mis momentos favoritos siempre son rodeada de mis seres queridos. <div onClick={() => setRead(!read)}>Leer menos</div> </span>) : <div onClick={() => setRead(!read)}>Leer más</div>} 
+          </p>
+          </div>
+          <div className="hide_in_mobile">
           <p className={styles.description}>
             Estudié en la Universidad Nacional de Lanús mi licenciatura y en
             Coderhouse la carrera de Desarrollo Front End. Soy muy metodica y
             organizada. Y disfruto mucho encontrar solucion a los problemas. Es
             por eso que a punto de concluir mi camino en la UnLa descubri que mi
             futuro profesional estaria en la programación, pero sin alejarme del
-            todo del diseño digital
+            todo del diseño digital. Soy una gran apasionada por el deporte no solo para practicarlo sino también para observarlo. Mis momentos favoritos siempre son rodeada de mis seres queridos.
           </p>
+          </div>
           <div className={styles.cont_redes}>
             <a
               href="https://www.behance.net/camilapletscher1"
