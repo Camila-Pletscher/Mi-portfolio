@@ -324,3 +324,36 @@ body {
     margin: 0 0.3em;
   }
 }
+
+@media (max-width: 332px) {
+.container_buttons {
+  width: 100%;
+  flex-direction: column;
+}
+
+.container_buttons button {
+  width: 100%;
+  margin-right: 0;
+}
+.container_buttons a {
+  width: 100%;
+  margin-left: 0;
+}
+
+.cont_soy p {
+  font-size: 3em;
+}
+
+.cont_anclaje p {
+  font-size: 0.9em;
+}
+
+.cont_description p {
+  font-size: 1.1em;
+}
+
+.container_footer {
+  width: 100%;
+}
+
+}

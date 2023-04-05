@@ -9,6 +9,7 @@ import Services from "./services/Services";
 import Skills from "./skills/Skills";
 
 function Container() {
+  const menuSection = useRef();
   const aboutSection = useRef();
   const servicesSection = useRef();
   const portfolioSection = useRef();
@@ -16,6 +17,7 @@ function Container() {
   const achievementsSection = useRef();
   const contactSection = useRef();
 
+  const scrollToMenu = () => menuSection.current.scrollIntoView();
   const scrollToAbout = () => aboutSection.current.scrollIntoView();
   const scrollToServices = () => servicesSection.current.scrollIntoView();
   const scrollToPortfolio = () => portfolioSection.current.scrollIntoView();
@@ -24,8 +26,9 @@ function Container() {
     achievementsSection.current.scrollIntoView();
   const scrollToContact = () => contactSection.current.scrollIntoView();
   return (
-    <>
+    <div ref={menuSection} className="contenedor_general">
       <Menu
+        
         scrollToAbout={scrollToAbout}
         scrollToServices={scrollToServices}
         scrollToPortfolio={scrollToPortfolio}
@@ -55,10 +58,10 @@ function Container() {
       <div className="container">
         <Footer />
       </div>
-      <div onClick={scrollToAbout} className="volver">
+      <div onClick={scrollToMenu} className="volver">
         <i className="material-icons">arrow_upward</i>
       </div>
-    </>
+    </div>
   );
 }
 

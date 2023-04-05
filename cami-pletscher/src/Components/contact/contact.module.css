@@ -94,7 +94,7 @@ form {
   }
 }
 
-@media (max-width: 332px) {
+@media (max-width: 444px) {
   .cont_form {
     width: 85%;
   }
@@ -107,4 +107,7 @@ form {
   .name {
     margin-right: 0;
   }
+
 }
+
+

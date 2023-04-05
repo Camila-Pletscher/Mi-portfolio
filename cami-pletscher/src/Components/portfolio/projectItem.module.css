@@ -209,4 +209,8 @@
   .cont_buttons div img {
     width: 35px;
   }
+
+  .cont_img_title div p {
+    font-size: 1.2em;
+  }
 }
