@@ -96,7 +96,6 @@ body {
   align-items: center;
 }
 
-
 .volver {
   position: fixed;
   bottom: 12px;
@@ -137,14 +136,13 @@ body {
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .container_skills {
     padding: 0.5rem;
   }
-  
 }
 
-@media (max-width:444px) {
+@media (max-width: 444px) {
   .hide_in_mobile {
     display: none;
   }
@@ -162,5 +160,8 @@ body {
   }
 }
 
-
-/* RESPONSIVE  =========================================================================  */
+@media (max-width: 332px) {
+  .cont_title {
+    padding: 1.8em 0;
+  }
+}

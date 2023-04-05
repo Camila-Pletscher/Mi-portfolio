@@ -180,3 +180,33 @@
     transform: translate(0%, 32%);
   }
 }
+
+@media (max-width: 332px) {
+  .hover_action_tech {
+    font-size: 0.7em;
+    height: 30px;
+    transform: translate(100%, 375%);
+    width: 93%;
+    padding: 1em;
+  }
+
+  .container_item_project:hover .hover_action_tech {
+    transform: translate(4%, 375%);
+  }
+
+  .hover_action {
+    width: 88%;
+    transform: translate(-100%, 42%);
+    font-size: 0.8em;
+    height: 110px;
+    padding: 1em;
+  }
+
+  .container_item_project:hover .hover_action {
+    transform: translate(0%, 42%);
+  }
+
+  .cont_buttons div img {
+    width: 35px;
+  }
+}

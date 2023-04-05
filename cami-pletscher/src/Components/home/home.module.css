@@ -173,11 +173,10 @@ body {
   margin-left: 3em;
 }
 
- /* RESPONSIVE  =========================================================================  */
+/* RESPONSIVE  =========================================================================  */
 
 /* Tablets en horizonal y escritorios normales */
-@media (max-width: 1212px) {  
-
+@media (max-width: 1212px) {
   .container_logo {
     margin-left: 1em;
   }
@@ -185,7 +184,6 @@ body {
   .container_izq {
     margin-left: 3em;
   }
-
 }
 
 @media (max-width: 972px) {
@@ -227,7 +225,7 @@ body {
   }
 }
 
-@media (max-width:612px) {
+@media (max-width: 612px) {
   .container_home {
     align-items: center;
     height: 100%;
@@ -257,7 +255,6 @@ body {
     width: 70%;
     margin-top: 1.5em;
     margin-bottom: 0em;
-
   }
 
   .container_logo {
@@ -283,8 +280,7 @@ body {
   }
 }
 
-@media (max-width:444px) {
-
+@media (max-width: 444px) {
   .cont_soy p {
     font-size: 3.5em;
   }
@@ -301,11 +297,9 @@ body {
     font-size: 1.4em;
   }
 
-
   .container_buttons button {
     font-size: 1.2em;
     width: 170px;
-
   }
 
   .container_profile {
@@ -316,7 +310,6 @@ body {
   .container_footer {
     margin-bottom: 1.5em;
     width: 80%;
-
   }
 
   .cont_block_foot {

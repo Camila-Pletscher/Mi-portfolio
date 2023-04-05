@@ -1,101 +1,110 @@
 .container_contact {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    background-color: #FFE5F0;
-    margin-top: 5em;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe5f0;
+  margin-top: 5em;
 }
 
 .cont_form {
-    width: 80%;
-    display: flex;
-    justify-content: center;
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
 
 .cont_name_email {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    margin-bottom: 2em;
-
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 2em;
 }
 
 .cont_mess {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
 }
 
 input {
-    border: 3px solid #FE006E;
-    background-color: #f9f9f9;
-    width: 100%;
-    height: 45px;
-    border-radius: 10px;
-
+  border: 3px solid #fe006e;
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
 }
 
 textarea {
-    border: 3px solid #FE006E;
-    background-color: #f9f9f9; 
-    width: 100%;
-    border-radius: 10px;
-
+  border: 3px solid #fe006e;
+  background-color: #f9f9f9;
+  width: 100%;
+  border-radius: 10px;
 }
 
 label {
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 1em;
-
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1em 0;
 }
 
-.name, .email {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
+.name,
+.email {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
 }
 
 .name {
-    margin-right: 2em;
+  margin-right: 2em;
 }
 
-
-
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
 }
 
 .contSend {
-    display: flex;
+  display: flex;
 }
 
 .contSend button {
-    background-color: #FE006E;
-    border-radius: 30px;
-    border: none;
-    padding: 1em;
-    margin-top: 2em;
-    margin-bottom: 5em;
-    width: 150px;
-    color: #f9f9f9;
-    font-weight: 600;
-    font-size: 1em;
+  background-color: #fe006e;
+  border-radius: 30px;
+  border: none;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  width: 150px;
+  color: #f9f9f9;
+  font-weight: 600;
+  font-size: 1em;
 }
 
+@media (max-width: 612px) {
+  .cont_form {
+    width: 80%;
+  }
 
-@media (max-width:612px) {
-    .cont_form {
-        width: 80%;
-    }
+  form {
+    width: 100%;
+  }
+}
 
-    form {
-        width: 100%;
-    }
+@media (max-width: 332px) {
+  .cont_form {
+    width: 85%;
+  }
+
+  .cont_name_email {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .name {
+    margin-right: 0;
+  }
 }

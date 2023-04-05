@@ -1,124 +1,135 @@
 /* ESTILOS NORMALES (para escritorios muy grandes) */
 
 .container_menu {
-    width: 25%;
+  width: 25%;
 }
 
 .container_achievements {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 60vh;
-    padding: 2.5rem 2rem 2rem;
-    
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 60vh;
+  padding: 2.5rem 2rem 2rem;
 }
 
-
 .container_divs_achievements {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: 5em 0em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 5em 0em;
 }
 
 .cont_each_achievement {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    width: 55%;
-    background-color: #FFE5F0;
-    padding: 1.5em;
-    margin: 1em;
-    height: auto;
-    border-radius: 25px;
-    box-shadow: 9px 12px 34px -3px rgba(0, 0, 0, 0.66);
-    -webkit-box-shadow: 9px 12px 34px -3px rgba(0, 0, 0, 0.66);
-    -moz-box-shadow: 9px 12px 34px -3px rgba(0, 0, 0, 0.66);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 55%;
+  background-color: #ffe5f0;
+  padding: 1.5em;
+  margin: 1em;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 9px 12px 34px -3px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: 9px 12px 34px -3px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 9px 12px 34px -3px rgba(0, 0, 0, 0.66);
 }
 
 .cont_certificate_achievement {
-    display: flex;
-    width: 35%;
-    padding-right: 2em;
+  display: flex;
+  width: 35%;
+  padding-right: 2em;
 }
 
 .cont_certificate_achievement img {
-    width: 100%;
+  width: 100%;
 }
 
 .container_info {
-    width: 60%;
+  width: 60%;
 }
 
 .cont_title_achievement {
-    color: #FE006E;
-    margin-bottom: 1em;
-    font-size: 1.5em;
+  color: #fe006e;
+  margin-bottom: 1em;
+  font-size: 1.5em;
 }
 
 .cont_place_achievement {
-    color: #000;
-    margin-bottom: 1em;
-    font-size: 1.2em;
+  color: #000;
+  margin-bottom: 1em;
+  font-size: 1.2em;
 }
 
 .cont_date_achievement {
-    color: #000;
-    font-size: 1.2em;
+  color: #000;
+  font-size: 1.2em;
 }
 
 @media (max-width: 972px) {
-    .cont_each_achievement {
-        width: 70%;
-    }
+  .cont_each_achievement {
+    width: 70%;
+  }
 }
 
-@media (max-width:612px) {
-    .cont_each_achievement {
-        width: 90%;
-    }
+@media (max-width: 612px) {
+  .cont_each_achievement {
+    width: 90%;
+  }
 
-    .container_divs_achievements {
-        width: 100%;
-    }
+  .container_divs_achievements {
+    width: 100%;
+  }
 }
 
-@media (max-width:444px){
-    .cont_each_achievement {
-        flex-direction: column;
+@media (max-width: 444px) {
+  .cont_each_achievement {
+    flex-direction: column;
+  }
 
-    }
+  .cont_certificate_achievement {
+    width: 90%;
+    padding: 1em;
+  }
 
-    .cont_certificate_achievement {
-        width: 90%;
-        padding: 1em;
-    }
+  .container_info {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .container_info {
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .cont_title_achievement p {
-        text-align: center;
-    }
+  .cont_title_achievement p {
+    text-align: center;
+  }
 
-    .cont_place_achievement p {
-        text-align: center;
-    }
+  .cont_place_achievement p {
+    text-align: center;
+  }
 
-    .cont_date_achievement p {
-        text-align: center;
-    }
+  .cont_date_achievement p {
+    text-align: center;
+  }
 
-    .container_divs_achievements {
-        margin: 0;
-    }
+  .container_divs_achievements {
+    margin: 0;
+  }
+}
+
+@media (max-width: 332px) {
+  .container_achievements {
+    padding: 0;
+  }
+
+  .cont_each_achievement {
+    padding: 1em;
+  }
+
+  .container_divs_achievements {
+    width: 90%;
+  }
 }

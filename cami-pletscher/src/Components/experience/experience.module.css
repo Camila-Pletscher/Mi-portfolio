@@ -61,10 +61,10 @@
   margin-top: 0.5em;
 }
 
- /* RESPONSIVE  =========================================================================  */
+/* RESPONSIVE  =========================================================================  */
 
 /* Tablets en horizonal y escritorios normales */
-@media (max-width: 1212px) { 
+@media (max-width: 1212px) {
   .cont_each_exp {
     width: 350px;
     height: 330px;
@@ -85,16 +85,31 @@
   .three {
     font-size: 1.2em;
   }
-
-
 }
 
 @media (max-width: 972px) {
-
   .cont_each_exp {
     margin-top: 1em;
     margin-bottom: 1em;
   }
-
 }
 
+@media (max-width: 332px) {
+  .cont_each_exp {
+    width: 265px;
+    height: 295px;
+  }
+
+  .one {
+    font-size: 1.3em;
+  }
+
+  .two {
+    font-size: 1.5em;
+  }
+
+  .three {
+    font-size: 1em;
+    margin-top: 1em;
+  }
+}

@@ -166,10 +166,7 @@ button:hover {
   }
 }
 
-
 @media (max-width: 972px) {
-
-
   .cont_img_info {
     width: 95%;
     align-items: flex-start;
@@ -202,10 +199,9 @@ button:hover {
     width: 80%;
     margin: 0;
   }
-
 }
 
-@media (max-width:444px){
+@media (max-width: 444px) {
   .cont_redes div p {
     display: none;
   }
@@ -219,6 +215,30 @@ button:hover {
     margin-right: 0;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
+  }
+}
 
+@media (max-width: 332px) {
+  .name {
+    font-size: 1.6em;
+  }
+  .profession {
+    font-size: 1.2em;
+  }
+
+  .container_buttons {
+    width: 100%;
+  }
+  .container_buttons button {
+    width: 100%;
+  }
+
+  .cont_redes {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .cont_red {
+    margin: 0;
   }
 }

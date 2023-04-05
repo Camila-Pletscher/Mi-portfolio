@@ -111,3 +111,44 @@
     margin-bottom: 1.5em;
   }
 }
+
+@media (max-width: 332px) {
+  .cont_design {
+    padding: 1em;
+  }
+
+  .cont_dev {
+    padding: 1em;
+  }
+
+  .cont_design .one {
+    font-size: 1em;
+  }
+
+  .cont_design .two{
+    font-size: 1.3em;
+  }
+
+  .cont_design .three {
+    font-size: 1em;
+  }
+
+  .cont_dev .one {
+    font-size: 1em;
+  }
+
+  .cont_dev .two{
+    font-size: 1.3em;
+  }
+
+  .cont_dev .three {
+    font-size: 1em;
+  }
+
+  .container_education {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+
+}

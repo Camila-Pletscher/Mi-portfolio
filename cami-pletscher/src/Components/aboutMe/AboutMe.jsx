@@ -14,15 +14,17 @@ function AboutMe(props) {
 
   return (
     <div className={styles.container_about}>
-      <div data-aos="fade-up"
-     data-aos-duration="3000" className="cont_title">
+      <div data-aos="fade-up" data-aos-duration="3000" className="cont_title">
         <img
           src="https://i.postimg.cc/6pDvhPP5/Mesa-de-trabajo-1.png"
           alt="about me"
         ></img>
       </div>
-      <div data-aos="fade-up"
-     data-aos-duration="3000" className={styles.cont_img_info}>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        className={styles.cont_img_info}
+      >
         <div className={styles.cont_img_prof}>
           <img
             src="https://i.postimg.cc/527Ht2vr/selfie-fondo-cuad-2.png"
@@ -30,7 +32,10 @@ function AboutMe(props) {
           ></img>
         </div>
         <div className={styles.cont_description}>
-          <p className={styles.name}><span className="hide_in_mobile">Mi nombre es</span> <span className="show_in_mobile">Soy</span> Camila Pletscher.</p>
+          <p className={styles.name}>
+            <span className="hide_in_mobile">Mi nombre es</span>{" "}
+            <span className="show_in_mobile">Soy</span> Camila Pletscher.
+          </p>
           <p className={styles.profession}>
             Desarrolladora Front End / Diseñadora gráfica
           </p>
@@ -55,7 +60,9 @@ function AboutMe(props) {
                     alt=""
                   ></img>
                 </div>
-                <div><p>Behance</p></div>
+                <div>
+                  <p>Behance</p>
+                </div>
               </div>
             </a>
             <a
@@ -70,7 +77,9 @@ function AboutMe(props) {
                     alt=""
                   ></img>
                 </div>
-                <div><p>Git hub</p></div>
+                <div>
+                  <p>Git hub</p>
+                </div>
               </div>
             </a>
             <a
@@ -85,7 +94,9 @@ function AboutMe(props) {
                     alt=""
                   ></img>
                 </div>
-                <div><p>Workana</p></div>
+                <div>
+                  <p>Workana</p>
+                </div>
               </div>
             </a>
           </div>
