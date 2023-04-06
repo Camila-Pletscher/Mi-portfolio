@@ -5,7 +5,6 @@ import cv from "../../Camila-Pletscher-cv-2023_compressed.pdf";
 function Home(props) {
   return (
     <div className={styles.container_home}>
-
       <div className={styles.container_all}>
         <div className={styles.container_up}>
           <div className={styles.container_txt}>
@@ -32,21 +31,11 @@ function Home(props) {
               </a>
             </button>
 
-            
-              <button onClick={props.scrollToAbout} className={styles.contact}>Conoce más</button>
-            
+            <button onClick={props.scrollToAbout} className={styles.contact}>
+              Conoce más
+            </button>
           </div>
         </div>
-
-          {/* <div className={styles.container_profile}>
-            <img
-              className={styles.hide}
-              src="https://i.postimg.cc/DZb2XkYn/home.png"
-              alt=""
-            ></img>
-          </div> */}
-
-
       </div>
     </div>
   );
