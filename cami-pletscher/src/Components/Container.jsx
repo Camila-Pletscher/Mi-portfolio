@@ -26,7 +26,7 @@ function Container() {
     achievementsSection.current.scrollIntoView();
   const scrollToContact = () => contactSection.current.scrollIntoView();
   return (
-    <div ref={menuSection} className="contenedor_general">
+    <div ref={menuSection}>
       <Menu
         
         scrollToAbout={scrollToAbout}

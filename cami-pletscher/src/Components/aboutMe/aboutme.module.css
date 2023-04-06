@@ -38,8 +38,7 @@ body {
 }
 
 .cont_img_prof {
-  display: flex;
-  width: 35%;
+  width: 42%;
 }
 
 .cont_img_prof img {
@@ -151,7 +150,14 @@ button:hover {
 
 /* RESPONSIVE  =========================================================================  */
 
-/* Tablets en horizonal y escritorios normales */
+@media (max-width: 1944px) {
+
+  .cont_img_prof {
+    width: 35%;
+  }
+
+}
+
 @media (max-width: 1212px) {
   .cont_description {
     width: 49%;
