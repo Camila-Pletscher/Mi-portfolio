@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styles from "./home.module.css";
 import cv from "../../Camila-Pletscher-cv-2023_compressed.pdf";
 
-function Home() {
+function Home(props) {
   return (
     <div className={styles.container_home}>
 
@@ -33,19 +32,19 @@ function Home() {
               </a>
             </button>
 
-            <Link to="/start">
-              <button className={styles.contact}>Conoce más</button>
-            </Link>
+            
+              <button onClick={props.scrollToAbout} className={styles.contact}>Conoce más</button>
+            
           </div>
         </div>
 
-          <div className={styles.container_profile}>
+          {/* <div className={styles.container_profile}>
             <img
               className={styles.hide}
               src="https://i.postimg.cc/DZb2XkYn/home.png"
               alt=""
             ></img>
-          </div>
+          </div> */}
 
 
       </div>

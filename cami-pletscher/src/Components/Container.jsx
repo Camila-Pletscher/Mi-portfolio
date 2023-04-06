@@ -38,7 +38,7 @@ function Container() {
         scrollToContact={scrollToContact}
       ></Menu>
       <div className="container">
-        <Home/>
+        <Home scrollToAbout={scrollToAbout}/>
       </div>
       
       <div className="container" ref={aboutSection}>
