@@ -20,36 +20,29 @@ body {
 .container_home {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: fit-content;
-  margin-top: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.container_izq {
-  width: 50%;
+.container_up {
+  width: 45%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: flex-start;
-  align-items: flex-start;
-  margin-left: 5em;
 }
 
 .container_all {
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  align-items: center;
-  margin-top: 20px;
+  justify-content: space-around;
 }
 
 .container_profile {
-  width: 40%;
+  width: 45%;
 }
 
 .container_profile img {
@@ -112,6 +105,7 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  width: 100%;
 }
 
 .container_buttons button {
@@ -122,11 +116,20 @@ body {
   background-color: #ffffff;
   border: #fe006e solid 1px;
   border-radius: 0.5em;
-  width: 220px;
+  width: 45%;
   padding: 0.5em 0;
   margin-bottom: 1em;
   margin-top: 1em;
   cursor: pointer;
+}
+
+.container_buttons a {
+  width: 45%;
+}
+
+.container_buttons a button {
+  width: 100%;
+  display: block;
 }
 
 .container_buttons button:hover {
@@ -135,14 +138,13 @@ body {
 
 .container_footer {
   display: flex;
-  width: 100%;
+  width: 50%;
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: center;
+  align-items: flex-start;
   position: absolute;
   bottom: 0;
-  margin-bottom: 1.5em;
 }
 
 .cont_block_foot {
@@ -150,8 +152,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 25%;
-  bottom: 0%;
+  width: 100%;
 }
 
 .cont_block_foot img {
@@ -175,14 +176,33 @@ body {
 
 /* RESPONSIVE  =========================================================================  */
 
-/* Tablets en horizonal y escritorios normales */
 @media (max-width: 1212px) {
   .container_logo {
     margin-left: 1em;
   }
 
-  .container_izq {
-    margin-left: 3em;
+  .container_all {
+    width: 80%;
+  }
+
+  .cont_soy p {
+    font-size: 3.5em;
+  }
+
+  .cont_anclaje p {
+    font-size: 1.5em;
+  }
+
+  .cont_description p {
+    font-size: 1.4em;
+  }
+
+  .container_buttons button {
+    font-size: 1.5em;
+  }
+
+  .container_home {
+    margin-bottom: 4em;
   }
 }
 
@@ -192,15 +212,15 @@ body {
   }
 
   .cont_soy p {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
   .cont_anclaje p {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
 
   .cont_description p {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .container_buttons button {
@@ -209,19 +229,7 @@ body {
   }
 
   .container_buttons {
-    flex-direction: column;
-  }
-
-  .cont_block_foot {
-    width: 30%;
-  }
-
-  .container_all {
-    margin-top: 7em;
-  }
-
-  .container_home {
-    margin-top: 3em;
+    justify-content: space-between;
   }
 }
 
@@ -236,9 +244,10 @@ body {
     flex-direction: column;
     margin-top: 1em;
     height: 100%;
+    align-items: center;
   }
 
-  .container_izq {
+  .container_up {
     width: 80%;
     margin: 0;
   }
@@ -289,7 +298,7 @@ body {
     font-size: 1.3em;
   }
 
-  .container_izq {
+  .container_up {
     width: 85%;
   }
 
@@ -307,53 +316,44 @@ body {
     margin-top: 2.5em;
   }
 
-  .container_footer {
-    margin-bottom: 1.5em;
-    width: 80%;
+  .container_all {
+    width: 90%;
   }
-
-  .cont_block_foot {
-    justify-content: center;
-  }
-
-  .cont_block_foot p {
+  .container_profile {
     display: none;
-  }
-
-  .cont_block_foot img {
-    margin: 0 0.3em;
   }
 }
 
 @media (max-width: 332px) {
-.container_buttons {
-  width: 100%;
-  flex-direction: column;
-}
+  .container_buttons {
+    width: 100%;
+    flex-direction: column;
+  }
 
-.container_buttons button {
-  width: 100%;
-  margin-right: 0;
-}
-.container_buttons a {
-  width: 100%;
-  margin-left: 0;
-}
+  .container_buttons button {
+    width: 100%;
+    margin-right: 0;
+  }
+  .container_buttons a {
+    width: 100%;
+    margin-left: 0;
+  }
 
-.cont_soy p {
-  font-size: 3em;
-}
+  .cont_soy p {
+    font-size: 3em;
+  }
 
-.cont_anclaje p {
-  font-size: 0.9em;
-}
+  .cont_anclaje p {
+    font-size: 0.9em;
+  }
 
-.cont_description p {
-  font-size: 1.1em;
-}
+  .cont_description p {
+    font-size: 1.1em;
+  }
 
-.container_footer {
-  width: 100%;
-}
+  .container_all {
+    width: 100%;
+  }
+
 
 }

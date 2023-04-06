@@ -7,6 +7,7 @@ import Menu from "./menu/Menu";
 import Portfolio from "./portfolio/Portfolio";
 import Services from "./services/Services";
 import Skills from "./skills/Skills";
+import Home from "./home/Home";
 
 function Container() {
   const menuSection = useRef();
@@ -36,6 +37,10 @@ function Container() {
         scrollToAchievements={scrollToAchievements}
         scrollToContact={scrollToContact}
       ></Menu>
+      <div className="container">
+        <Home/>
+      </div>
+      
       <div className="container" ref={aboutSection}>
         <AboutMe scrollToContact={scrollToContact} />
       </div>

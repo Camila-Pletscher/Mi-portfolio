@@ -97,19 +97,19 @@ function AboutMe(props) {
               </div>
             </a>
             <a
-              href="https://www.workana.com/freelancer/6257ae499ed73d584ce610beda7e8d0c"
+              href="https://www.linkedin.com/in/camila-pletscher-537b06177/"
               target={"_blank"}
               rel="noreferrer"
             >
               <div className={styles.cont_red}>
                 <div>
                   <img
-                    src="https://i.postimg.cc/434zL3R4/Mesa-de-trabajo-22.png"
+                    src="https://i.postimg.cc/c4k521Ff/Mesa-de-trabajo-22in.png"
                     alt=""
                   ></img>
                 </div>
                 <div>
-                  <p>Workana</p>
+                  <p>Linkedin</p>
                 </div>
               </div>
             </a>
