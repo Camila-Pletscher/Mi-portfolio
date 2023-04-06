@@ -54,10 +54,10 @@ function AboutMe(props) {
           <div className="hide_in_mobile">
           <p className={styles.description}>
             Estudié en la Universidad Nacional de Lanús mi licenciatura y en
-            Coderhouse la carrera de Desarrollo Front End. Soy muy metodica y
-            organizada. Y disfruto mucho encontrar solucion a los problemas. Es
-            por eso que a punto de concluir mi camino en la UnLa descubri que mi
-            futuro profesional estaria en la programación, pero sin alejarme del
+            Coderhouse la carrera de Desarrollo Front End. Soy muy metódica y
+            organizada. Y disfruto mucho encontrar solución a los problemas. Es
+            por eso que a punto de concluir mi camino en la UnLa descubrí que mi
+            futuro profesional estaría en la programación, pero sin alejarme del
             todo del diseño digital. Soy una gran apasionada por el deporte no solo para practicarlo sino también para observarlo. Mis momentos favoritos siempre son rodeada de mis seres queridos.
           </p>
           </div>
