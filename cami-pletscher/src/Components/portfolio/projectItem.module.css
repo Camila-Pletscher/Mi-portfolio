@@ -117,7 +117,24 @@
 
 /* RESPONSIVE  =========================================================================  */
 
-/* Tablets en horizonal y escritorios normales */
+@media (max-width: 1512px) {
+  .hover_action_tech {
+    font-size: 0.8em;
+    height: 45px;
+    transform: translate(110%, 352%);
+  }
+
+  .container_item_project:hover .hover_action_tech {
+    transform: translate(4%, 352%);
+  }
+
+  .cont_img_title div p {
+    font-size: 1.2em;
+  }
+
+
+}
+
 @media (max-width: 1212px) {
   .hover_action_tech {
     font-size: 0.8em;
