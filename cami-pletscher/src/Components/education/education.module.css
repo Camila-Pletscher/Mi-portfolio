@@ -78,26 +78,40 @@
 /* RESPONSIVE  =========================================================================  */
 
 @media (max-width: 1512px) {
+
+  .cont_info_edu {
+    justify-content: center;
+  }
   .cont_design,
   .cont_dev {
-    width: 25%;
-    height: 240px;
+    width: 22%;
+    height: 220px;
+    padding: 1em;
+    margin: 0 2em;
+  }
+
+  .cont_design div img {
+    width: 80px;
+  }
+
+  .cont_dev div img {
+    width: 80px;
   }
 
   .cont_design .one {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .cont_dev .one {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .cont_design .two {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .cont_dev .two {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .cont_design .three {
