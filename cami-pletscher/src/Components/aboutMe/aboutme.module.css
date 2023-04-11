@@ -158,6 +158,33 @@ button:hover {
 
 }
 
+@media (max-width: 1512px) {
+
+  .name {
+
+    font-size: 1.7em;
+
+  }
+  
+  .profession {
+
+    font-size: 1.2em;
+
+  }
+  
+  .description {
+
+    font-size: 0.8em;
+
+  }
+
+  .cont_img_prof {
+    width: 25%;
+  }
+
+
+}
+
 @media (max-width: 1212px) {
   .cont_description {
     width: 49%;

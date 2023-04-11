@@ -84,8 +84,6 @@ body {
   align-items: center;
 }
 
-
-
 .container {
   width: 100%;
 }
@@ -124,6 +122,10 @@ body {
   justify-content: flex-start;
   min-height: 60vh;
   padding: 2.5rem 2rem 2rem;
+}
+
+.cont_title img {
+  width: 30%;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
