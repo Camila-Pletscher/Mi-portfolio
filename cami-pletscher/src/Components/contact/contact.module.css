@@ -84,6 +84,13 @@ form {
   font-size: 1em;
 }
 
+@media (max-width: 1512px) {
+.cont_form {
+  width: 60%;
+}
+
+}
+
 @media (max-width: 612px) {
   .cont_form {
     width: 80%;

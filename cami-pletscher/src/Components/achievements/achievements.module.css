@@ -57,22 +57,36 @@
   color: #fe006e;
   margin-bottom: 1em;
   font-size: 1.5em;
+  font-weight: 600;
 }
 
 .cont_place_achievement {
   color: #000;
   margin-bottom: 1em;
   font-size: 1.2em;
+  font-weight: 500;
 }
 
 .cont_date_achievement {
   color: #000;
   font-size: 1.2em;
+  font-style: italic;
 }
 
 @media (max-width: 1512px) {
 .cont_title_achievement {
   font-size: 1.3em;
+}
+
+.cont_date_achievement {
+  font-size: 1em;
+}
+
+.cont_place_achievement {
+  font-size: 1em;
+}
+.cont_title_achievement {
+  font-size: 1.2em;
 }
 
 

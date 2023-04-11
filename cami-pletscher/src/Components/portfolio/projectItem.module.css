@@ -121,11 +121,11 @@
   .hover_action_tech {
     font-size: 0.8em;
     height: 45px;
-    transform: translate(110%, 352%);
+    transform: translate(110%, 340%);
   }
 
   .container_item_project:hover .hover_action_tech {
-    transform: translate(4%, 352%);
+    transform: translate(4%, 340%);
   }
 
   .cont_img_title div p {
