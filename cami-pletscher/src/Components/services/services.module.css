@@ -80,6 +80,32 @@
   width: 70%;
 }
 
+@media (max-width: 1512px) {
+
+.subtitle {
+  font-size: 1em;
+}
+
+.serv_title p {
+  font-size: 1.2em;
+}
+
+.serv_text {
+  font-size: 0.8em;
+  width: auto;
+}
+
+.cont_list_services {
+  width: 60%;
+}
+
+.container_each_service {
+  height: 222px;
+  width: 25%;
+}
+
+}
+
 @media (max-width: 972px) {
   .cont_list_services {
     width: 90%;
