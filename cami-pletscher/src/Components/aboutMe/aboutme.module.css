@@ -38,7 +38,7 @@ body {
 }
 
 .cont_img_prof {
-  width: 42%;
+  width: 25%;
 }
 
 .cont_img_prof img {
@@ -150,13 +150,6 @@ button:hover {
 
 /* RESPONSIVE  =========================================================================  */
 
-@media (max-width: 1944px) {
-
-  .cont_img_prof {
-    width: 35%;
-  }
-
-}
 
 @media (max-width: 1512px) {
 
