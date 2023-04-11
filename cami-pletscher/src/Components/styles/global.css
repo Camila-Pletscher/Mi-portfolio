@@ -147,6 +147,13 @@ body {
   }
 }
 
+@media (max-width: 612px) {
+
+  .cont_title img {
+    width: 50%;
+  }
+}
+
 @media (max-width: 444px) {
   .hide_in_mobile {
     display: none;

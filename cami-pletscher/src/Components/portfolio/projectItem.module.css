@@ -1,6 +1,6 @@
 .container_item_project {
   display: flex;
-  width: 42%;
+  width: 35%;
   position: relative;
   text-align: center;
   position: relative;
@@ -20,7 +20,7 @@
 }
 
 .container_item_project:hover .hover_action_tech {
-  transform: translate(0%, 334%);
+  transform: translate(0%, 377%);
 }
 
 .cont_img_title {
@@ -102,8 +102,8 @@
   height: 60px;
   right: 0;
   top: -50px;
-  -webkit-transform: translate(110%, 277%);
-  transform: translate(100%, 334%);
+  -webkit-transform: translate(100%, 377%);
+  transform: translate(100%, 377%);
   padding: 15px;
   border-radius: 20px 0px 0px 20px;
   transition: -webkit-transform 0.9s;
