@@ -7,22 +7,23 @@
 
 .cont_info_exp {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  width: 90%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
 }
 
 .cont_each_exp {
   background-color: #ffe5f0;
-  width: 30%;
-  height: 450px;
+  width: 20%;
+  height: 325px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 2em;
   border-radius: 1em;
+  margin: 0 1em;
 }
 .pad_txt {
   padding: 0 1.5em;
@@ -43,27 +44,57 @@
   font-weight: 700;
   text-align: center;
   margin-top: 0.8em;
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: #fe006e;
 }
 
 .two {
   font-weight: 700;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.7em;
   margin-top: 0.5em;
 }
 
 .three {
   font-weight: 300;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1em;
   margin-top: 0.5em;
 }
 
 /* RESPONSIVE  =========================================================================  */
 
-/* Tablets en horizonal y escritorios normales */
+@media (max-width: 1512px) {
+
+  .cont_each_exp {
+    width: 20%;
+    height: 240px;
+  }
+
+  .cont_info_exp {
+    flex-wrap: wrap;
+  }
+
+  .one {
+    font-size: 1em;
+  }
+
+  .two {
+    font-size: 1.3em;
+  }
+
+  .three {
+    font-size: 0.8em;
+  }
+
+  .plinth {
+    font-size: 0.8em;
+  }
+
+
+
+}
+
 @media (max-width: 1212px) {
   .cont_each_exp {
     width: 40%;
