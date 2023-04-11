@@ -18,7 +18,7 @@
 
 .container_nav {
   display: flex;
-  width: 70%;
+  width: 50%;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -31,6 +31,7 @@
   padding: 0.5em;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   cursor: pointer;
+  font-size: 1em;
 }
 
 .container_nav div p:hover {
@@ -40,7 +41,7 @@
 }
 
 .container_logo {
-  width: 20%;
+  width: 18%;
 }
 
 @media (max-width: 612px) {

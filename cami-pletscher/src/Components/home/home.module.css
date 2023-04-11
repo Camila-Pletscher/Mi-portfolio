@@ -56,7 +56,7 @@ body {
 .cont_hola p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 3.5em;
+  font-size: 3em;
   letter-spacing: 1.5px;
   margin: 0;
   padding: 0;
@@ -69,8 +69,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #000000;
-  font-size: 5em;
-  padding-bottom: 0.5em;
+  font-size: 4em;
   margin: 0;
 }
 
@@ -82,7 +81,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #ffffff;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .cont_anclaje {
@@ -96,7 +95,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #000000;
-  font-size: 1.8em;
+  font-size: 1.5em;
   padding-bottom: 0.5em;
 }
 
@@ -105,14 +104,14 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
 }
 
 .container_buttons button {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 2em;
-  margin-right: 1em;
+  font-size: 1.2em;
   background-color: #ffffff;
   border: #fe006e solid 1px;
   border-radius: 0.5em;
