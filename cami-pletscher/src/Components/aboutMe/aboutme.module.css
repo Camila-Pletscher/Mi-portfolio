@@ -20,6 +20,7 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+
 }
 
 .container_about_info {
@@ -150,6 +151,21 @@ button:hover {
 
 /* RESPONSIVE  =========================================================================  */
 
+@media (max-width:1920px) and (max-height:1080px) {
+  .container_about {
+    margin-top: 9em;
+  }
+}
+
+@media (max-width:1440px) and (max-height:900px) {
+  .container_about {
+    margin-top: 4.5em;
+  }
+}
+
+@media (max-width:1280px) and (max-height:960px) {
+
+}
 
 @media (max-width: 1512px) {
 
@@ -175,6 +191,10 @@ button:hover {
     width: 25%;
   }
 
+
+  .container_about {
+    margin-top: 3em;
+  }
 
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./home.module.css";
 import cv from "../../Camila-Pletscher-cv-2023_compressed.pdf";
+import { Link } from "react-router-dom";
 
 function Home(props) {
   return (
@@ -30,10 +31,12 @@ function Home(props) {
                 Descargar cv
               </a>
             </button>
-
-            <button onClick={props.scrollToAbout} className={styles.contact}>
+    <Link to="/start">
+      <button className={styles.contact}>
               Conoce más
             </button>
+    </Link>
+            
           </div>
         </div>
       </div>

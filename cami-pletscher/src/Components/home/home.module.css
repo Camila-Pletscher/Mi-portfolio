@@ -18,13 +18,12 @@ body {
 }
 
 .container_home {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  margin-top: 5em;
   flex-direction: row;
   justify-content: center;
-  height: 100vh;
-  max-height: 1080px;
+  align-items: center;
 }
 
 .container_up {
@@ -180,22 +179,6 @@ body {
 /* RESPONSIVE  =========================================================================  */
 
 
-@media (max-width: 1440px) {
-  .container_home {
-    max-height: 900px;
-
-  }
-
-}
-
-@media (max-width: 1280px) {
-  .container_home {
-    max-height: 960px;
-    
-  }
-
-}
-
 
 @media (max-width: 1212px) {
   .container_logo {
@@ -255,13 +238,11 @@ body {
 @media (max-width: 612px) {
   .container_home {
     align-items: center;
-    height: 100%;
-    margin-top: 1em;
+
   }
 
   .container_all {
     flex-direction: column;
-    margin-top: 1em;
     height: 100%;
     align-items: center;
   }
