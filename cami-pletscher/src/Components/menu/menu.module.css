@@ -44,6 +44,14 @@
   width: 18%;
 }
 
+@media (max-width: 1212px) {
+.container_nav {
+  width: 60%;
+}
+
+
+}
+
 @media (max-width: 612px) {
   .container_nav {
     display: none;

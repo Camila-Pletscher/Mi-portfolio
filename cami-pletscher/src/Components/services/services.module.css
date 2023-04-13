@@ -106,6 +106,18 @@
 
 }
 
+@media (max-width: 1212px) {
+
+  .container_each_service {
+    padding: 1.5em;
+  }
+
+.cont_list_services {
+  width: 70%;
+}
+
+}
+
 @media (max-width: 972px) {
   .cont_list_services {
     width: 90%;

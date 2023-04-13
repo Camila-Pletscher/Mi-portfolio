@@ -125,25 +125,10 @@
 @media (max-width: 1212px) {
   .cont_design,
   .cont_dev {
-    width: 300px;
+    width: 25%;
     height: 250px;
   }
 
-  .cont_design .one {
-    font-size: 1.2em;
-  }
-
-  .cont_dev .one {
-    font-size: 1.2em;
-  }
-
-  .cont_design .two {
-    font-size: 1.5em;
-  }
-
-  .cont_dev .two {
-    font-size: 1.5em;
-  }
 }
 
 @media (max-width: 612px) {

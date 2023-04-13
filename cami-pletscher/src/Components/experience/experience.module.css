@@ -68,7 +68,7 @@
 
   .cont_each_exp {
     width: 20%;
-    height: 240px;
+    height: 270px;
   }
 
   .cont_info_exp {
@@ -97,7 +97,7 @@
 
 @media (max-width: 1212px) {
   .cont_each_exp {
-    width: 28%;
+    width: 25%;
     height: 250px;
     margin-top: 1em;
   }
