@@ -21,9 +21,10 @@ body {
   width: 100%;
   display: flex;
   margin-top: 5em;
-  margin-bottom: 5em;
   flex-direction: row;
   justify-content: center;
+  height: 100vh;
+  max-height: 1080px;
 }
 
 .container_up {
@@ -174,7 +175,27 @@ body {
   margin-left: 3em;
 }
 
+
+
 /* RESPONSIVE  =========================================================================  */
+
+
+@media (max-width: 1440px) {
+  .container_home {
+    max-height: 900px;
+
+  }
+
+}
+
+@media (max-width: 1280px) {
+  .container_home {
+    max-height: 960px;
+    
+  }
+
+}
+
 
 @media (max-width: 1212px) {
   .container_logo {

@@ -131,6 +131,15 @@
 
 }
 
+@media (max-width: 972px) {
+  .cont_design,
+  .cont_dev {
+    width: 30%;
+    height: 250px;
+  }
+
+}
+
 @media (max-width: 612px) {
   .cont_info_edu {
     flex-wrap: wrap;

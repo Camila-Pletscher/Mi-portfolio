@@ -194,18 +194,38 @@ button:hover {
 
 @media (max-width: 972px) {
   .cont_img_info {
-    width: 95%;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    width: 80%;
   }
 
   .cont_img_prof {
-    width: 45%;
+    width: 35%;
     height: auto;
   }
 
   .cont_description {
     width: 50%;
+  }
+
+  .name {
+
+    font-size: 1.3em;
+
+  }
+  
+  .profession {
+
+    font-size: 1em;
+
+  }
+  
+  .description {
+
+    font-size: 0.8em;
+
+  }
+
+  .container_buttons button {
+    font-size: 1em;
   }
 }
 
