@@ -217,6 +217,7 @@ button:hover {
 
   .cont_description {
     width: 50%;
+    align-items: center;
   }
 
   .name {
@@ -234,6 +235,8 @@ button:hover {
   .container_buttons button {
     font-size: 1em;
   }
+
+
 }
 
 @media (max-width: 612px) {

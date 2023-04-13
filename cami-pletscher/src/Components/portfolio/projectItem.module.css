@@ -185,6 +185,12 @@
   }
 }
 
+@media (max-width:972px){
+  .container_item_project {
+    width: 40%;
+  }
+}
+
 @media (max-width: 612px) {
   .container_item_project {
     width: 80%;

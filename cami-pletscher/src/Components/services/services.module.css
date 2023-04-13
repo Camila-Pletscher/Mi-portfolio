@@ -133,14 +133,14 @@
   }
 
   .container_each_service {
-    width: 40%;
+    width: 30%;
   }
 }
 
 @media (max-width: 444px) {
   .container_each_service {
-    width: 70%;
-    height: 250px;
+    width: 55%;
+    height: auto;
   }
 
   .serv_text {
@@ -150,6 +150,6 @@
 
 @media (max-width: 332px) {
   .container_each_service {
-    width: 80%;
+    width: 70%;
   }
 }

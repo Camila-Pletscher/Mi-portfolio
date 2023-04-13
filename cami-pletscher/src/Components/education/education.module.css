@@ -134,8 +134,14 @@
 @media (max-width: 972px) {
   .cont_design,
   .cont_dev {
-    width: 30%;
-    height: 250px;
+    width: 60%;
+    height: auto;
+  }
+
+  .cont_info_edu {
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
   }
 
 }
@@ -148,15 +154,31 @@
   .cont_design {
     margin-bottom: 1.5em;
   }
+
+  .cont_dev .two {
+    font-size: 1.3em;
+  }
+
+  .cont_design .two {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width:444px){
+  .cont_design, .cont_dev {
+    width: 70%;
+  }
 }
 
 @media (max-width: 332px) {
   .cont_design {
     padding: 1em;
+    width: 86%;
   }
 
   .cont_dev {
     padding: 1em;
+    width: 86%;
   }
 
   .cont_design .one {

@@ -91,6 +91,22 @@ form {
 
 }
 
+@media (max-width: 972px) {
+  .cont_form {
+    width: 85%;
+  }
+
+  input {
+    height: 35px;
+    border: 2px solid #fe006e;
+  }
+
+  textarea {
+    border: 2px solid #fe006e;
+  }
+  
+  }
+
 @media (max-width: 612px) {
   .cont_form {
     width: 80%;
@@ -115,6 +131,12 @@ form {
     margin-right: 0;
   }
 
+}
+
+@media (max-width:332px){
+  .cont_form {
+    width: 90%;
+  }
 }
 
 

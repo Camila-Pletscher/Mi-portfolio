@@ -134,15 +134,15 @@
   }
 
     .one {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .two {
-    font-size: 1.7em;
+    font-size: 1.3em;
   }
 
   .three {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .plinth {
@@ -150,6 +150,11 @@
   }
 }
 
+@media (max-width:444px) {
+  .cont_each_exp {
+    width: 70%;
+  }
+}
 
 
 @media (max-width: 332px) {
@@ -166,5 +171,9 @@
   .three {
     font-size: 1em;
     margin-top: 1em;
+  }
+
+  .cont_each_exp {
+    width: 86%;
   }
 }
