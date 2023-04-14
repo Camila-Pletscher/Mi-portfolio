@@ -116,7 +116,11 @@
 
 
 
-
+  @media (max-width:871px){
+    .cont_each_exp {
+      height: 270px;
+    }
+  }
 
 
 }

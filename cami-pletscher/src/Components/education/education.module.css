@@ -145,11 +145,7 @@
     height: auto;
   }
 
-  .cont_info_edu {
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-  }
+
 }
 
 @media (max-width: 768px) {

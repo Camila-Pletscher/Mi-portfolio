@@ -50,6 +50,13 @@
 }
 
 
+@media (max-width:871px){
+  .container_nav div p {
+    font-size: 0.8em;
+  }
+}
+
+
 }
 
 @media (max-width: 712px) {
