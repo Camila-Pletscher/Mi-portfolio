@@ -148,6 +148,12 @@
 
 }
 
+@media (min-width: 769px) and (max-width: 890px) {
+  .cont_info_edu {
+    width: 85%;
+  }
+}
+
 @media (max-width: 768px) {
   .cont_info_edu {
     flex-wrap: wrap;

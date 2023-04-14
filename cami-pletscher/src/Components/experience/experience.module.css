@@ -113,16 +113,16 @@
     height: 250px;
     margin-top: 1em;
   }
+}
 
-
-
-  @media (max-width:871px){
-    .cont_each_exp {
-      height: 270px;
-    }
+@media (min-width: 769px) and (max-width: 890px) {
+  .cont_each_exp {
+    height: 280px;
   }
 
-
+  .cont_info_exp {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {

@@ -42,3 +42,9 @@ select {
     width: 90%;
   }
 }
+
+@media (min-width: 769px) and (max-width: 890px) {
+  .cont_project_list {
+    width: 100%;
+  }
+}
