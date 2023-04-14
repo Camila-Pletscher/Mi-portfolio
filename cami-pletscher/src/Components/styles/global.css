@@ -60,6 +60,10 @@
   src: url(/public/assets/fonts/Roboto-Black.ttf);
 }
 
+.italic {
+  font-style: italic;
+}
+
 /* ESTILOS NORMALES (para escritorios muy grandes) */
 
 * {

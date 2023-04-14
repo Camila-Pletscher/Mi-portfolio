@@ -13,6 +13,16 @@ body {
   background-color: #f9f9f9;
 }
 
+.read_more div {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.description div {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
 .container_about {
   background-color: #f9f9f9;
   width: 100%;
@@ -262,6 +272,10 @@ button:hover {
     display: none;
   }
 
+  .cont_description {
+    align-items: flex-start;
+  }
+
   .name {
     font-size: 1.6em;
   }
@@ -293,4 +307,25 @@ button:hover {
   .cont_description span:hover {
     color: #fe006e;
   }
+}
+
+@media (max-width: 390px) {
+  .cont_img_info {
+    width: 90%;
+  }
+}
+
+@media (max-width: 332px) {
+  .cont_img_info {
+    width: 90%;
+  }
+
+  .cont_img_prof {
+    width: 80%;
+  }
+
+  .cont_description {
+    width: 85%;
+  }
+
 }
