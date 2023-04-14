@@ -185,13 +185,20 @@
   }
 }
 
+@media (max-width:1024px){
+
+  .container_item_project {
+    width: 40%;
+  }
+}
+
 @media (max-width:972px){
   .container_item_project {
     width: 40%;
   }
 }
 
-@media (max-width: 612px) {
+@media (max-width: 768px) {
   .container_item_project {
     width: 80%;
   }

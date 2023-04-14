@@ -135,6 +135,13 @@
   .container_each_service {
     width: 30%;
   }
+
+}
+
+@media (max-width:768px){
+  .container_each_service {
+    width: 35%;
+  }
 }
 
 @media (max-width: 444px) {
@@ -145,6 +152,10 @@
 
   .serv_text {
     width: 250px;
+  }
+
+  .serv_text p {
+    padding: 0 1.2em;
   }
 }
 

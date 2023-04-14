@@ -249,7 +249,7 @@ button:hover {
 
 }
 
-@media (max-width: 612px) {
+@media (max-width: 768px) {
   .cont_img_info {
     flex-direction: column;
     justify-content: center;

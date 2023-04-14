@@ -96,13 +96,19 @@
 
 }
 
+@media (max-width: 1024px) {
+  .cont_each_achievement {
+    width: 75%;
+  }
+}
+
 @media (max-width: 972px) {
   .cont_each_achievement {
     width: 70%;
   }
 }
 
-@media (max-width: 612px) {
+@media (max-width: 768px) {
   .cont_each_achievement {
     width: 90%;
   }

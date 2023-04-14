@@ -85,10 +85,15 @@ form {
 }
 
 @media (max-width: 1512px) {
-.cont_form {
-  width: 60%;
+  .cont_form {
+    width: 60%;
+  }
 }
 
+@media (max-width: 1024px) {
+  .cont_form {
+    width: 85%;
+  }
 }
 
 @media (max-width: 972px) {
@@ -104,10 +109,9 @@ form {
   textarea {
     border: 2px solid #fe006e;
   }
-  
-  }
+}
 
-@media (max-width: 612px) {
+@media (max-width: 768px) {
   .cont_form {
     width: 80%;
   }
@@ -130,13 +134,10 @@ form {
   .name {
     margin-right: 0;
   }
-
 }
 
-@media (max-width:332px){
+@media (max-width: 332px) {
   .cont_form {
     width: 85%;
   }
 }
-
-

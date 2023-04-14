@@ -121,7 +121,7 @@
 
 }
 
-@media (max-width: 612px) {
+@media (max-width: 768px) {
   .cont_each_exp {
     width: 60%;
     margin-top: 1em;
