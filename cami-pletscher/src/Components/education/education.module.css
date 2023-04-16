@@ -176,6 +176,7 @@
   .cont_design,
   .cont_dev {
     width: 70%;
+    margin: 1em 0;
   }
 }
 

@@ -4,7 +4,7 @@ import "../styles/global.css";
 import SkillList from "./SkillList";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Marquee from "react-fast-marquee";
+import ModalSkills from "./ModalSkills";
 
 function Skills() {
   useEffect(() => {
@@ -32,10 +32,10 @@ function Skills() {
       <div className={styles.skills_container}>
         <SkillList skills={skill} />
       </div>
-
-
+      <div className={styles.skillsModal_container}>
+        <ModalSkills skills={skill} />
+      </div>
     </>
-
   );
 }
 
