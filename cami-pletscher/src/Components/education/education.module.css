@@ -125,7 +125,7 @@
 @media (max-width: 1212px) {
   .cont_design,
   .cont_dev {
-    width: 25%;
+    width: 35%;
     height: 250px;
   }
 }
@@ -135,6 +135,7 @@
   .cont_dev {
     width: 60%;
     height: auto;
+    margin: 0 0.5em;
   }
 }
 
@@ -145,12 +146,20 @@
     height: auto;
   }
 
+  .cont_info_edu {
+    width: 85%;
+  }
+
 
 }
 
 @media (min-width: 769px) and (max-width: 890px) {
   .cont_info_edu {
-    width: 85%;
+    width: 90%;
+  }
+
+  .cont_design, .cont_dev {
+    height: 300px;
   }
 }
 
@@ -159,8 +168,9 @@
     flex-wrap: wrap;
   }
 
-  .cont_design {
+  .cont_design, .cont_dev {
     margin-bottom: 1.5em;
+    height: auto;
   }
 
   .cont_dev .two {

@@ -24,6 +24,8 @@ function Contact() {
       .then((response) => console.log(response))
       .catch((error) => console.log(error));
     e.target.reset();
+
+    messageOk();
   };
 
   const messageOk = () => {
@@ -47,12 +49,12 @@ function Contact() {
         <div className={styles.cont_name_email}>
           <div className={styles.name}>
             <label>Nombre:</label>
-            <input type="text" name="user_name" />
+            <input required type="text" name="user_name" />
           </div>
           
           <div className={styles.email}>
             <label>Mail:</label>
-            <input type="email" name="user_email" />
+            <input required type="email" name="user_email" />
           </div>
 
           
@@ -60,12 +62,12 @@ function Contact() {
           
         <div className={styles.cont_mess}>
           <label>Mensaje:</label>
-          <textarea cols="30" rows="10" name="user_message"></textarea>
+          <textarea required cols="30" rows="10" name="user_message"></textarea>
         </div>
           
 
           <div className={styles.contSend}>
-            <button onClick={messageOk}>
+            <button>
               <div>Enviar</div>
             </button>
           </div>

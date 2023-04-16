@@ -41,6 +41,18 @@ function Education() {
             <p className={styles.three}>Escuela digital Coderhouse</p>
           </div>
         </div>
+        <div data-aos="zoom-in" className={styles.cont_dev}>
+          <div>
+            <img src="https://i.postimg.cc/Bn6xQT75/Group-18.png" alt=""></img>
+          </div>
+          <div>
+            <p className={styles.one}>Marzo 2021 - Actualidad</p>
+            <p className={styles.two}>
+              Inglés <br></br> In Company
+            </p>
+            <p className={styles.three}>Lingua Universi</p>
+          </div>
+        </div>
       </div>
     </div>
   );
