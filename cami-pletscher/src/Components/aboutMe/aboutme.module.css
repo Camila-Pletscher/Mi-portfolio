@@ -119,12 +119,13 @@ body {
 
 .cont_red img {
   width: 40px;
-  margin-right: 0.5em;
+
+
 }
 
 .cont_red img:hover {
-  filter: invert(0%) sepia(5%) saturate(7%) hue-rotate(267deg) brightness(95%) contrast(101%); 
-  transition: 1s;
+  filter: invert(17%) sepia(80%) saturate(7470%) hue-rotate(327deg) brightness(98%) contrast(106%);
+
 }
 
 .container_buttons {
@@ -148,6 +149,7 @@ body {
   margin-top: 1em;
   color: #ffffff;
   cursor: pointer;
+  transition: background-color 1s ease 0s;
 }
 
 .container_buttons button a {
@@ -156,7 +158,7 @@ body {
 
 button:hover {
   background-color: #000000;
-  transition: 0.5s;
+
 }
 
 .container {
@@ -221,19 +223,14 @@ button:hover {
     width: 78%;
   }
 
-  .cont_img_prof {
-    width: 35%;
+  .cont_left {
+    width: 25%;
   }
 }
 
 @media (max-width: 972px) {
   .cont_img_info {
     width: 80%;
-  }
-
-  .cont_img_prof {
-    width: 35%;
-    height: auto;
   }
 
   .cont_description {
@@ -255,6 +252,24 @@ button:hover {
   .container_buttons button {
     font-size: 1em;
   }
+  
+  .cont_left {
+    width: 28%;
+  }
+}
+
+@media (max-width:612px) {
+  .cont_left {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cont_redes {
+    margin-bottom: 1em;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 972px) {
@@ -273,6 +288,8 @@ button:hover {
   .container_buttons button {
     width: 156px;
   }
+
+
 }
 @media (max-width: 768px) {
   .cont_img_info {
@@ -281,14 +298,24 @@ button:hover {
     align-items: center;
   }
 
-  .cont_img_prof {
-    width: 60%;
-    margin-bottom: 1.5em;
-  }
-
   .cont_description {
     width: 80%;
     margin: 0;
+    align-items: center;
+  }
+
+
+
+  .cont_left {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cont_redes {
+    margin-bottom: 1em;
   }
 }
 
@@ -345,8 +372,8 @@ button:hover {
     width: 90%;
   }
 
-  .cont_img_prof {
-    width: 80%;
+  .cont_left {
+    width: 70%;
   }
 
   .cont_description {

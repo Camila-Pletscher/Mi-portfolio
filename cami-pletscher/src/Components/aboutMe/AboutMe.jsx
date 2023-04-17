@@ -43,7 +43,7 @@ function AboutMe(props) {
               <div className={styles.cont_red}>
 
                   <img
-                    src="https://i.postimg.cc/50TL2qYj/Mesa-de-trabajo-6-copia.png"
+                    src="https://i.postimg.cc/Y0hFRMc4/be-negroaboutme.png"
                     alt=""
                   ></img>
 
@@ -57,7 +57,7 @@ function AboutMe(props) {
               <div className={styles.cont_red}>
 
                   <img
-                    src="https://i.postimg.cc/gJn3pB0f/Mesa-de-trabajo-4-copia.png"
+                    src="https://i.postimg.cc/7Zvz3FK6/github-negroaboutme.png"
                     alt=""
                   ></img>
 
@@ -72,7 +72,7 @@ function AboutMe(props) {
               <div className={styles.cont_red}>
 
                   <img
-                    src="https://i.postimg.cc/c4k521Ff/Mesa-de-trabajo-22in.png"
+                    src="https://i.postimg.cc/tCnPVqtw/in-negroaboutme.png"
                     alt=""
                   ></img>
 
