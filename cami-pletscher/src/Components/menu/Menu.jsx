@@ -1,18 +1,33 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "../logo/Logo";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import styles from "./menu.module.css";
 
 function Menu(props) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const [menu, setMenu] = useState(false);
 
   return (
     <div className={styles.container_logo_nav}>
-      <div className={styles.container_logo}>
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        className={styles.container_logo}
+      >
         <Logo />
       </div>
 
-      <div className={styles.container_nav}>
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        className={styles.container_nav}
+      >
         <div onClick={props.scrollToAbout}>
           <p>SOBRE MI</p>
         </div>
@@ -39,12 +54,15 @@ function Menu(props) {
             className={styles.back_menu}
           ></div>
           <div className={styles.container_nav_mob}>
-          <div onClick={() => setMenu(!menu)} className={styles.close}>
+            <div onClick={() => setMenu(!menu)} className={styles.close}>
               <i class="material-icons">close</i>
             </div>
-          <div className={styles.logo_mob}>
-            <img src="https://i.postimg.cc/2SWK9vPB/Circular-blanco.png" alt=""></img>
-          </div>
+            <div className={styles.logo_mob}>
+              <img
+                src="https://i.postimg.cc/2SWK9vPB/Circular-blanco.png"
+                alt=""
+              ></img>
+            </div>
 
             <div className={styles.container_link_mob}>
               <div onClick={props.scrollToAbout}>
@@ -66,9 +84,6 @@ function Menu(props) {
                 <p onClick={() => setMenu(!menu)}>CONTACTO</p>
               </div>
             </div>
-
-
-
           </div>
         </>
       ) : (

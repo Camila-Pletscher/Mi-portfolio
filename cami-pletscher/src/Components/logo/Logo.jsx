@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./logo.module.css";
+import logo from "../../logo.png";
 
 
 
@@ -9,7 +10,7 @@ function Logo() {
     <div className={styles.container_logo}>
       <Link to="/">
         <img
-          src="https://i.postimg.cc/rsJNGbKY/Logo-personal-web.png"
+          src={logo}
           alt=""
         ></img>
       </Link>
