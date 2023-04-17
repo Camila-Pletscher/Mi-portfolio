@@ -27,11 +27,59 @@ function AboutMe(props) {
         data-aos-duration="3000"
         className={styles.cont_img_info}
       >
+        <div className={styles.cont_left}>
         <div className={styles.cont_img_prof}>
           <img
             src="https://i.postimg.cc/527Ht2vr/selfie-fondo-cuad-2.png"
             alt=""
           ></img>
+        </div>
+        <div className={styles.cont_redes}>
+            <a
+              href="https://www.behance.net/camilapletscher1"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <div className={styles.cont_red}>
+
+                  <img
+                    src="https://i.postimg.cc/50TL2qYj/Mesa-de-trabajo-6-copia.png"
+                    alt=""
+                  ></img>
+
+              </div>
+            </a>
+            <a
+              href="https://github.com/Camila-Pletscher"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <div className={styles.cont_red}>
+
+                  <img
+                    src="https://i.postimg.cc/gJn3pB0f/Mesa-de-trabajo-4-copia.png"
+                    alt=""
+                  ></img>
+
+
+              </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/camila-pletscher-537b06177/"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <div className={styles.cont_red}>
+
+                  <img
+                    src="https://i.postimg.cc/c4k521Ff/Mesa-de-trabajo-22in.png"
+                    alt=""
+                  ></img>
+
+              </div>
+            </a>
+          </div>
+
         </div>
         <div className={styles.cont_description}>
           <p className={styles.name}>
@@ -75,59 +123,7 @@ function AboutMe(props) {
               seres queridos.
             </p>
           </div>
-          <div className={styles.cont_redes}>
-            <a
-              href="https://www.behance.net/camilapletscher1"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              <div className={styles.cont_red}>
-                <div>
-                  <img
-                    src="https://i.postimg.cc/50TL2qYj/Mesa-de-trabajo-6-copia.png"
-                    alt=""
-                  ></img>
-                </div>
-                <div>
-                  <p>Behance</p>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://github.com/Camila-Pletscher"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              <div className={styles.cont_red}>
-                <div>
-                  <img
-                    src="https://i.postimg.cc/gJn3pB0f/Mesa-de-trabajo-4-copia.png"
-                    alt=""
-                  ></img>
-                </div>
-                <div>
-                  <p>Git hub</p>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/camila-pletscher-537b06177/"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              <div className={styles.cont_red}>
-                <div>
-                  <img
-                    src="https://i.postimg.cc/c4k521Ff/Mesa-de-trabajo-22in.png"
-                    alt=""
-                  ></img>
-                </div>
-                <div>
-                  <p>Linkedin</p>
-                </div>
-              </div>
-            </a>
-          </div>
+
           <div className={styles.container_buttons}>
             <button>
               <a href={cv} download="Camila-Pletscher-CV">
