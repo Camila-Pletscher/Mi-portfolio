@@ -13,8 +13,8 @@
   justify-content: center;
 }
 
-#confirmButtonColor {
-  color: #000 !important;
+.swal2-icon-show {
+  background-color: #000 !important;
 }
 
 

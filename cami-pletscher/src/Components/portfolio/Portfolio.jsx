@@ -44,13 +44,14 @@ function Portfolio() {
           alt=""
         ></img>
       </div>
-      <div data-aos="zoom-out" className={styles.filterSelect}>
+      <div data-aos="zoom-out" className={styles.select}>
         <label>Filtrar por:</label>
         <select onChange={(e) => onFilterValueSelected(e)} >
           <option value="Todo" selected>Todo</option>
           <option value="Diseño">Diseño</option>
           <option value="Desarrollo">Desarrollo</option>
         </select>
+        <div className={styles.select_arrow}></div>
       </div>
 
       <div id="cont_projects" className={styles.cont_project_list}>

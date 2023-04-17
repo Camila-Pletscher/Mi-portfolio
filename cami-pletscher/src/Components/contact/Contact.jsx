@@ -34,8 +34,11 @@ function Contact() {
         icon: 'success',
         title: 'Su consulta fue enviada con éxito',
         showConfirmButton: false,
-        timer: 1500
-      })
+        timer: 1500,
+        customClass: {
+          icon: 'swal2-icon-show',
+        },
+      });
   }
 
 
