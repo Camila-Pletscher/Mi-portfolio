@@ -4,14 +4,21 @@ import styles from "./modal.module.css";
 export default function ModalSkills(props) {
   const [modal, setModal] = useState(false);
 
+  function over() {
+    setModal(!modal);
+    document.body.style.overflow = "hidden";
+  }
+
+  function overOut() {
+    setModal(false);
+    document.body.style.overflow = "auto";
+  }
+
   return (
     <>
       {modal ? (
         <div>
-          <div
-            onClick={() => setModal(false)}
-            className={styles.back_menu}
-          ></div>
+          <div onClick={() => overOut()} className={styles.back_menu}></div>
           <div className={styles.container_modal}>
             <div className={styles.display}>
               {props.skills.map((skill) => (
@@ -23,13 +30,13 @@ export default function ModalSkills(props) {
                 </div>
               ))}
             </div>
-            <div onClick={() => setModal(false)} className={styles.close}>
+            <div onClick={() => overOut()} className={styles.close}>
               <i class="material-icons">close</i>
             </div>
           </div>
         </div>
       ) : (
-        <div onClick={() => setModal(!modal)} className={styles.view_all}>
+        <div onClick={() => over()} className={styles.view_all}>
           Ver todas
         </div>
       )}
