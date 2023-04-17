@@ -6,9 +6,9 @@
   justify-content: space-around;
   width: 100%;
   margin-top: 0.5em;
-  box-shadow: 1px 7px 34px -7px rgba(0,0,0,0.51);
-  -webkit-box-shadow: 1px 7px 34px -7px rgba(0,0,0,0.51);
-  -moz-box-shadow: 1px 7px 34px -7px rgba(0,0,0,0.51);
+  box-shadow: -1px 10px 13px -4px rgba(135,133,133,0.76);
+  -webkit-box-shadow: -1px 10px 13px -4px rgba(135,133,133,0.76);
+  -moz-box-shadow: -1px 10px 13px -4px rgba(135,133,133,0.76);
 }
 
 .container_nav_mob {
