@@ -13,6 +13,12 @@
   justify-content: center;
 }
 
+#confirmButtonColor {
+  color: #000 !important;
+}
+
+
+
 .cont_name_email {
   display: flex;
   justify-content: center;
@@ -82,6 +88,12 @@ form {
   color: #f9f9f9;
   font-weight: 600;
   font-size: 1em;
+  transition: background-color 1s ease 0s;
+  cursor: pointer;
+}
+
+.contSend button:hover {
+  background-color: #000;
 }
 
 @media (max-width: 1512px) {
