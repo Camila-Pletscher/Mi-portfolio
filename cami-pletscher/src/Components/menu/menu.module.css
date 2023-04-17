@@ -171,3 +171,9 @@
   }
 
 }
+
+@media (max-width: 280px) {
+.container_logo_nav {
+  padding: 0.5em;
+}
+}
