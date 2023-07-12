@@ -12,7 +12,7 @@ function Experience() {
       <div data-aos="zoom-out" className="cont_title">
         <img
           src="https://i.postimg.cc/Hxm8qyHq/Mesa-de-trabajo-12.png"
-          alt=""
+          alt="my experiencia"
         ></img>
       </div>
       <div className={styles.cont_info_exp}>

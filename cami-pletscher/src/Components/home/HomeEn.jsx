@@ -3,43 +3,43 @@ import styles from "./home.module.css";
 import cv from "../../Camila-Pletscher-cv-2023_compressed.pdf";
 import { Link } from "react-router-dom";
 
-function Home(props) {
+function HomeEn(props) {
   return (
     <div className={styles.container_home}>
       <div className={styles.container_all}>
         <div className={styles.container_up}>
-          <Link to="/homeEn">
+          <Link to="/">
             {" "}
             <div className={styles.language}>
-              <p>EN</p>
+              <p>ES</p>
               <i class="material-icons">language</i>
             </div>
           </Link>
           <div className={styles.container_txt}>
             <div className={styles.cont_hola}>
-              <p>HOLA!</p>
+              <p>HELLO!</p>
             </div>
             <div className={styles.cont_soy}>
               <p>
-                SOY <span>CAMILA</span>
+                I AM <span>CAMILA</span>
               </p>
             </div>
             <div className={styles.cont_anclaje}>
               <p>Graphic Designer & Front end developer</p>
             </div>
             <div className={styles.cont_description}>
-              <p>Te invito a conocerme un poco más.</p>
+              <p>I invite you to get to know me a little better.</p>
             </div>
           </div>
           <div className={styles.container_buttons}>
             <button className={styles.download}>
               <a href={cv} download="Camila-Pletscher-CV">
                 {""}
-                Descargar cv
+                Download cv
               </a>
             </button>
-            <Link to="/start">
-              <button className={styles.contact}>Conoce más</button>
+            <Link to="/startEn">
+              <button className={styles.contact}>See more</button>
             </Link>
           </div>
         </div>
@@ -48,4 +48,4 @@ function Home(props) {
   );
 }
 
-export default Home;
+export default HomeEn;

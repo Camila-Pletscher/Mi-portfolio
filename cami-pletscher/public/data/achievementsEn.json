@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "certificate": "https://i.postimg.cc/dQ66km59/utn.jpg",
+    "title": "Programming fundamentals",
+    "place": "National Technological University",
+    "date": "January 2021 - April 2021"
+  },
+  {
+    "id": "2",
+    "certificate": "https://i.postimg.cc/CxyDQtTj/dw61f1012c34fc76002e0cee09.png",
+    "title": "Web development",
+    "place": "Coderhouse",
+    "date": "November 2021 - January 2022"
+  },
+  {
+    "id": "3",
+    "certificate": "https://i.postimg.cc/3w1vWxyB/js629225f936308c001ccdc13a.png",
+    "title": "JavaScript",
+    "place": "Coderhouse",
+    "date": "March 2022 - May 2022"
+  },
+  {
+    "id": "4",
+    "certificate": "https://i.postimg.cc/vmbnQVmT/rjs630d73be1a71b40019927c44.png",
+    "title": "React Js",
+    "place": "Coderhouse",
+    "date": "June 2022 - July 2022"
+  }
+]
