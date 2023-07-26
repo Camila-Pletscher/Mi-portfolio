@@ -11,6 +11,7 @@ function ProjectItem({ image, title, project, code, view, text, tools, gitHub })
   return (
     <div data-aos="flip-up" data-aos-duration="1300" className={styles.container_item_project}>
       <div className={styles.container_info}>
+
         <div className={styles.cont_img_title}>
           <img src={image} alt=""></img>
           <div className={styles.filter}></div>
@@ -18,8 +19,7 @@ function ProjectItem({ image, title, project, code, view, text, tools, gitHub })
             <p>{title}</p>
           </div>
         </div>
-      </div>
-      <div className={styles.hover_action}>
+        <div className={styles.hover_action}>
         <p>{text}</p>
         <div className={styles.cont_buttons}>
         <div>
@@ -34,9 +34,12 @@ function ProjectItem({ image, title, project, code, view, text, tools, gitHub })
           </div>
         </div>
       </div>
-      <div className={styles.hover_action_tech}>
+        <div className={styles.hover_action_tech}>
         <p>{tools}</p>
       </div>
+      </div>
+
+
     </div>
   );
 }

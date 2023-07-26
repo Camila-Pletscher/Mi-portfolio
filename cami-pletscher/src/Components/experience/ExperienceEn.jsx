@@ -18,7 +18,7 @@ function ExperienceEn() {
       <div className={styles.cont_info_exp}>
         <div data-aos="zoom-in" className={styles.cont_each_exp}>
           <div className={styles.pad_txt}>
-            <p className={styles.one}>Web developer</p>
+            <p className={styles.one}>Front End developer</p>
             <p className={styles.two}>MRM McCann group</p>
             <p className={styles.three}>
               Email marketing development for General Motors. Support for
@@ -26,7 +26,7 @@ function ExperienceEn() {
               "Learn Peritoneal Dialysis" with ReactJs.
             </p>
           </div>
-          <div className={styles.plinth}>January 2022 - Currently</div>
+          <div className={styles.plinth}>January 2022 - Present</div>
         </div>
 
         <div data-aos="zoom-in" className={styles.cont_each_exp}>

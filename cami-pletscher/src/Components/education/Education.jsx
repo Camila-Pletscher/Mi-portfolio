@@ -53,6 +53,18 @@ function Education() {
             <p className={styles.three}>Lingua Universi</p>
           </div>
         </div>
+        <div data-aos="zoom-in" className={styles.cont_dev}>
+          <div>
+            <img src="https://i.postimg.cc/Fs12Y0Wm/Group-13.png" alt=""></img>
+          </div>
+          <div>
+            <p className={styles.one}>Julio 2023 - Actualidad</p>
+            <p className={styles.two}>
+              FullStack - JavaScript | Node JS
+            </p>
+            <p className={styles.three}>Codo a Codo</p>
+          </div>
+        </div>
       </div>
     </div>
   );

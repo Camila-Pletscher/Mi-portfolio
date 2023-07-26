@@ -26,7 +26,7 @@ function EducationEn() {
             <p className={styles.two}>
               Bachelor's degree in Design and Visual Communication{" "}
             </p>
-            <p className={styles.three}>National University of Lanus</p>
+            <p className={styles.three}>Universidad Nacional de Lanus</p>
           </div>
         </div>
         <div data-aos="zoom-in" className={styles.cont_dev}>
@@ -46,11 +46,23 @@ function EducationEn() {
             <img src="https://i.postimg.cc/Bn6xQT75/Group-18.png" alt=""></img>
           </div>
           <div>
-            <p className={styles.one}>March 2021 - Currently</p>
+            <p className={styles.one}>March 2021 - Present</p>
             <p className={styles.two}>
               English <br></br> In Company
             </p>
             <p className={styles.three}>Lingua Universi</p>
+          </div>
+        </div>
+        <div data-aos="zoom-in" className={styles.cont_dev}>
+          <div>
+            <img src="https://i.postimg.cc/Fs12Y0Wm/Group-13.png" alt=""></img>
+          </div>
+          <div>
+            <p className={styles.one}>July 2023 - Present</p>
+            <p className={styles.two}>
+              FullStack - JavaScript | Node JS
+            </p>
+            <p className={styles.three}>Codo a Codo</p>
           </div>
         </div>
       </div>
