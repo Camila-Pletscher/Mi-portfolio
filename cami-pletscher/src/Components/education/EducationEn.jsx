@@ -3,7 +3,7 @@ import styles from "./education.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function Education() {
+function EducationEn() {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -12,7 +12,7 @@ function Education() {
     <div className={styles.container_education}>
       <div data-aos="zoom-out" className="cont_title">
         <img
-          src="https://i.postimg.cc/4d1Hsxxm/Mesa-de-trabajo-13.png"
+          src="https://i.postimg.cc/GpTFVp5w/Mesa-de-trabajo-13-copia.png"
           alt=""
         ></img>
       </div>
@@ -22,11 +22,11 @@ function Education() {
             <img src="https://i.postimg.cc/Fsqw318S/Group-14.png" alt=""></img>
           </div>
           <div>
-            <p className={styles.one}>Febrero 2014 - Diciembre 2021</p>
+            <p className={styles.one}>February 2014 - December 2021</p>
             <p className={styles.two}>
-              Licenciatura en Diseño y <br></br> Comunicación Visual
+              Bachelor's degree in Design and Visual Communication{" "}
             </p>
-            <p className={styles.three}>Universidad Nacional de Lanús</p>
+            <p className={styles.three}>Universidad Nacional de Lanus</p>
           </div>
         </div>
         <div data-aos="zoom-in" className={styles.cont_dev}>
@@ -34,11 +34,11 @@ function Education() {
             <img src="https://i.postimg.cc/Fs12Y0Wm/Group-13.png" alt=""></img>
           </div>
           <div>
-            <p className={styles.one}>Noviembre 2021 - Julio 2022</p>
+            <p className={styles.one}>November 2021 - July 2022</p>
             <p className={styles.two}>
-              Desarrollo Front End <br></br> React JS
+              Front End Development <br></br> React JS
             </p>
-            <p className={styles.three}>Escuela digital Coderhouse</p>
+            <p className={styles.three}>Coderhouse</p>
           </div>
         </div>
         <div data-aos="zoom-in" className={styles.cont_dev}>
@@ -46,9 +46,9 @@ function Education() {
             <img src="https://i.postimg.cc/Bn6xQT75/Group-18.png" alt=""></img>
           </div>
           <div>
-            <p className={styles.one}>Marzo 2021 - Actualidad</p>
+            <p className={styles.one}>March 2021 - Present</p>
             <p className={styles.two}>
-              Inglés <br></br> In Company
+              English <br></br> In Company
             </p>
             <p className={styles.three}>Lingua Universi</p>
           </div>
@@ -58,7 +58,7 @@ function Education() {
             <img src="https://i.postimg.cc/Fs12Y0Wm/Group-13.png" alt=""></img>
           </div>
           <div>
-            <p className={styles.one}>Julio 2023 - Actualidad</p>
+            <p className={styles.one}>July 2023 - Present</p>
             <p className={styles.two}>
               FullStack - JavaScript | Node JS
             </p>
@@ -70,4 +70,4 @@ function Education() {
   );
 }
 
-export default Education;
+export default EducationEn;

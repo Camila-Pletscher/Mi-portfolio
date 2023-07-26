@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../logo/Logo";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import styles from "./menu.module.css";
+import LogoEn from "../logo/LogoEn";
 import { Link } from "react-router-dom";
 
-function Menu(props) {
+function MenuEn(props) {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -20,7 +20,7 @@ function Menu(props) {
         data-aos-duration="1500"
         className={styles.container_logo}
       >
-        <Logo />
+        <LogoEn />
       </div>
 
       <div
@@ -30,31 +30,33 @@ function Menu(props) {
         className={styles.container_nav}
       >
         <div onClick={props.scrollToAbout}>
-          <p>SOBRE MI</p>
+          <p>ABOUT ME</p>
         </div>
         <div onClick={props.scrollToServices}>
-          <p>SERVICIOS</p>
+          <p>SERVICES</p>
         </div>
         <div onClick={props.scrollToPortfolio}>
-          <p>PORTAFOLIO</p>
+          <p>PORTFOLIO</p>
         </div>
         <div onClick={props.scrollToSkills}>
           <p>SKILLS</p>
         </div>
         <div onClick={props.scrollToAchievements}>
-          <p>LOGROS</p>
+          <p>ACHIEVEMENTS</p>
         </div>
         <div onClick={props.scrollToContact}>
-          <p>CONTACTO</p>
+          <p>CONTACT</p>
         </div>
       </div>
-      <Link to="/startEn">
+
+      <Link to="/start">
         {" "}
         <div className={styles.language}>
-          <p>EN</p>
+          <p>ES</p>
           <i class="material-icons">language</i>
         </div>
       </Link>
+
       {menu ? (
         <>
           <div
@@ -74,28 +76,28 @@ function Menu(props) {
 
             <div className={styles.container_link_mob}>
               <div onClick={props.scrollToAbout}>
-                <p onClick={() => setMenu(!menu)}>SOBRE MI</p>
+                <p onClick={() => setMenu(!menu)}>ABOUT ME</p>
               </div>
               <div onClick={props.scrollToServices}>
-                <p onClick={() => setMenu(!menu)}>SERVICIOS</p>
+                <p onClick={() => setMenu(!menu)}>SERVICES</p>
               </div>
               <div onClick={props.scrollToPortfolio}>
-                <p onClick={() => setMenu(!menu)}>PORTAFOLIO</p>
+                <p onClick={() => setMenu(!menu)}>PORTFOLIO</p>
               </div>
               <div onClick={props.scrollToSkills}>
                 <p onClick={() => setMenu(!menu)}>SKILLS</p>
               </div>
               <div onClick={props.scrollToAchievements}>
-                <p onClick={() => setMenu(!menu)}>LOGROS</p>
+                <p onClick={() => setMenu(!menu)}>ACHIEVEMENTS</p>
               </div>
               <div onClick={props.scrollToContact}>
-                <p onClick={() => setMenu(!menu)}>CONTACTO</p>
+                <p onClick={() => setMenu(!menu)}>CONTACT</p>
               </div>
             </div>
-            <Link to="/startEn">
+            <Link to="/start">
               {" "}
               <div className={styles.language_mobile}>
-                <p>EN</p>
+                <p>ES</p>
                 <i class="material-icons">language</i>
               </div>
             </Link>
@@ -111,4 +113,4 @@ function Menu(props) {
   );
 }
 
-export default Menu;
+export default MenuEn;

@@ -12,13 +12,13 @@ function Experience() {
       <div data-aos="zoom-out" className="cont_title">
         <img
           src="https://i.postimg.cc/Hxm8qyHq/Mesa-de-trabajo-12.png"
-          alt=""
+          alt="my experiencia"
         ></img>
       </div>
       <div className={styles.cont_info_exp}>
         <div data-aos="zoom-in" className={styles.cont_each_exp}>
           <div className={styles.pad_txt}>
-            <p className={styles.one}>Desarrolladora web</p>
+            <p className={styles.one}>Desarrolladora Front End</p>
             <p className={styles.two}>MRM grupo McCann</p>
             <p className={styles.three}>
               Desarrollo de email marketing para General Motors. Mantenimiento

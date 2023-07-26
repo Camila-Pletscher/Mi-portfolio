@@ -3,170 +3,170 @@
         "id": "1",
         "image": "https://i.postimg.cc/BbC8k5Jb/moon.png",
         "title":"E-commerce MOON",
-        "tools": "Tecnologías utilizadas: JavaScript, CSS, HTML, Firebase",
+        "tools": "Technologies used: JavaScript, CSS, HTML, Firebase",
         "project": "https://youtu.be/SC0azlq_2Oc",
         "view": "https://i.postimg.cc/0NGD7Z10/Mesa-de-trabajo-25projects.png",
         "gitHub": "https://github.com/Camila-Pletscher/Moon-indumentaria", 
         "code": "https://i.postimg.cc/HxBMhxxJ/Mesa-de-trabajo-24projects.png",
-        "category": "Desarrollo",
-        "text": "E-commerce realizado para el trabajo final del curso de JavaScript en Coderhouse. El carrito guardado en LocalStorage y base de datos en Firebase."
+        "category": "Development",
+        "text": "E-commerce made for the final project of the Javascript course from Coderhouse. The shopping cart is stored in LocalStorage and the database in Firebase."
 
     },
     {
         "id": "2",
         "image": "https://i.postimg.cc/KcC8YJ74/siemprefitness.png",
         "title":"Branding Siempre Fitness",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop",
         "project": "https://www.behance.net/gallery/148188635/Diseno-de-marca-SIEMPRE-FITNESS",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Branding desarrollado como diseñadora freelance para un emprendimiento de entrenamiento físico en grupo. Complementando la salud y el ejercicio."
+        "category": "Design",
+        "text": "Branding designed for a brand of physical training. Complementing health and training."
 
     },
     {
         "id": "3",
         "image": "https://i.postimg.cc/y84wdY13/portada-promos.jpg",
-        "title":"Flyers promocionales Nexgard",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop, Figma",
+        "title":"Promotional flyers Nexgard",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop, Figma",
         "project": "https://www.behance.net/gallery/139065741/Flyers-promocionales-Nexgard",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Flyers promocionales realizados como diseñadora de Chiappini + Becker para envíos por WhatsApp."
+        "category": "Design",
+        "text": "Promotional flyers designed as a graphic designer by Chiappini + Becker for sending WhatsApp."
 
     },
     {
         "id": "4",
         "image": "https://i.postimg.cc/zBq1tDbR/Presentacion-final-TIF56.jpg",
-        "title":"Rediseño y branding del Club Atlético Defensores de Glew",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop, Figma",
+        "title":"Redesign and branding for Club Atlético Defensores de Glew",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop, Figma",
         "project": "https://www.behance.net/gallery/139004227/Rediseno-y-branding-Club-Atltico-Defensores-de-Glew",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Trabajo final de la Lic. en Diseño y Comunicación Visual en la UnLa. Diseño de escudo, Instagram, papeleria promocional, carnet social, merchandising, transporte y app móvil."
+        "category": "Design",
+        "text": "Final project of the bachelor of design and visual communication of UnLa. Design of escudo, Instagram, promotional papers, social card, merchandising, transportation and mobile app."
 
     },
     {
         "id": "5",
         "image": "https://i.postimg.cc/d3bF928J/libro.jpg",
-        "title":"Libro 'Metáforas compuestas' de Pablo Bernasconi",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop, Adobe Indesign",
+        "title":"Book 'Metáforas compuestas' by Pablo Bernasconi",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop, Adobe Indesign",
         "project": "https://www.behance.net/gallery/109277911/Libro-Pablo-Bernasconi-Metaforas-Compuestas",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Libro diseñado para la materia diseño 4 de la UnLa con elección del artista y de sus obras además de la forma de presentarlas y el nombre."
+        "category": "Design",
+        "text": "Book designed for the Design 4 subject of UnLa with the choice of the artist and his works as well as the way of presenting them and the name."
 
     },
     {
         "id": "6",
         "image": "https://i.postimg.cc/W4x7TScG/EDUN.jpg",
-        "title":"Revista digital EDUN",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop, Adobe Indesign",
+        "title":"Digital magazine EDUN",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop, Adobe Indesign",
         "project": "https://www.behance.net/gallery/132866785/Revista-Digital-EDUN",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Revista digital interactiva diseñada para la materia diseño 4 de la UnLa con el tópico: Moda sustentable. Elección de un nombre representativo."
+        "category": "Design",
+        "text": "Digital and interactive magazine designed for the Design 4 subject of UnLa with the topic: Sustenable fashion."
 
     },
     {
         "id": "7",
         "image": "https://i.postimg.cc/B6DR0Xkv/portada-receta.jpg",
-        "title":"Guías nutricionales",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop, Adobe Indesign",
+        "title":"Nutritional guidelines",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop, Adobe Indesign",
         "project": "https://www.behance.net/gallery/139003485/Guias-nutricionales",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Guías nutricionales realizadas como diseñadora de Chiappini + Becker en formato para tablets."
+        "category": "Design",
+        "text": "Nutritional guidelines created as a graphic designer by Chiappini + Becker for tablet device."
 
     },
     {
         "id": "8",
         "image": "https://i.postimg.cc/fR9PX3Wf/ppt.jpg",
-        "title":"Presentación del programa Conectados",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop, Microsoft PowerPoint",
+        "title":"Presentation of program 'Conectados'",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop, Microsoft PowerPoint",
         "project": "https://www.behance.net/gallery/139003569/Presentacion-del-programa-Conectados",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Presentación del programa: Conectados realizado como diseñadora de Chiappini + Becker."
+        "category": "Design",
+        "text": "Presentation of program: 'Conectados'. It was made as a graphic designer by Chiappini + Becker."
 
     },
     {
         "id": "9",
         "image": "https://i.postimg.cc/fTqRgPNR/Etiqueta-2.jpg",
-        "title":"Etiqueta de vino Don Stanislao",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop",
+        "title":"Tag of wine: 'Don Stanislao'",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop",
         "project": "https://www.behance.net/gallery/138998213/Etiquetas-de-vino-Stanislao",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Dos versiones de etiquetas de vino realizada como diseñadora freelance para emprendimiento Don Stanislao."
+        "category": "Design",
+        "text": "Two versions of tag wine: 'Don Stanislao'."
 
     },
     {
         "id": "10",
         "image": "https://i.postimg.cc/0QyGx3bH/antirabia.jpg",
-        "title":"Campaña antirrábica",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop",
+        "title":"Anti-Rabies Campaign",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop",
         "project": "https://www.behance.net/gallery/139003917/Campana-antirrabica",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Campaña de concientización antirrábica realizada como diseñadora de Chiappini + Becker para Instagram."
+        "category": "Design",
+        "text": "Anti-rabies awareness campaign made as a graphic designer by Chiappini + Becker for Instagram."
 
     },
     {
         "id": "12",
         "image": "https://i.postimg.cc/FK5p3D1T/conectados-flyer.jpg",
-        "title":"Flyer promocional Conectados AZ",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop",
+        "title":"Promotional flyers: 'Conectados AZ'",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop",
         "project": "https://www.behance.net/gallery/132743295/Flyer-de-promocion-del-programa-Conectados-de-AZ",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Flyer promocional del programa Conectados de Az realizado como diseñadora de Chiappini + Becker para envio por WhatsApp."
+        "category": "Design",
+        "text": "Promotional flyers: Conectados AZ. It was made as a graphic designer by Chiappini + Becker for sending WhatsApp."
 
     },
     {
         "id": "13",
         "image": "https://i.postimg.cc/jS5Lx7Tv/mockup-afiche.jpg",
-        "title":"Afiche promocional Esquí Nórdico",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop",
+        "title":"Promotional poster Esquí Nórdico",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop",
         "project": "https://www.behance.net/gallery/109278103/Afiche-promocional-Campeonato-Arg-de-Esqui-Nordico",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Afiche promocional realizado para la materia Tipografía 3 de la UnLa. Topico: Esquí Nórdico."
+        "category": "Design",
+        "text": "Promotional poster designed for the typography 3 subject of UnLa."
 
     },
     {
         "id": "14",
         "image": "https://i.postimg.cc/XvBKvhW2/diario.jpg",
-        "title":"Diario 'El Siglo'",
-        "tools": "Herramientas utilizadas: Adobe Illustrator, Adobe Photoshop, Adobe Indesign",
+        "title":"Newspaper 'El Siglo'",
+        "tools": "Tools used: Adobe Illustrator, Adobe Photoshop, Adobe Indesign",
         "project": "https://www.behance.net/gallery/109277503/Periodico-Linea-Editorial-Baja-El-Siglo",
         "view": "https://i.postimg.cc/50xvgvxd/Mesa-de-trabajo-23projects.png",
         "code": null,
-        "category": "Diseño",
-        "text": "Diario realizado para la materia Diseño 4 de la UnLa. Topico: Diario dirigido a clase baja. Nombre a elección."
+        "category": "Design",
+        "text": "Newspaper designed for the Design 4 subject of UnLa."
 
     },
     {
         "id": "15",
         "image": "https://i.postimg.cc/GhkG6YQf/mockup-sitio-pyc.jpg",
-        "title":"Sitio Design Pyc",
-        "tools": "Tecnologías utilizadas: JavaScript, CSS, HTML, Firebase, Adobe Ilustrator, Adobe Photoshop, Figma, ReactJs",
+        "title":"Website Design Pyc",
+        "tools": "Technologies used: JavaScript, CSS, HTML, Firebase, Adobe Ilustrator, Adobe Photoshop, Figma, ReactJs",
         "project": "https://youtu.be/mBUIdB15MOM",
         "view": "https://i.postimg.cc/0NGD7Z10/Mesa-de-trabajo-25projects.png",
         "gitHub": "https://github.com/Camila-Pletscher/Coder-react/tree/entrega-final/Desafios/des-app", 
         "code": "https://i.postimg.cc/HxBMhxxJ/Mesa-de-trabajo-24projects.png",
-        "category": "Desarrollo, Diseño",
-        "text": "Sitio desarrollado para trabajo final del curso de ReactJs de Coderhouse. Muestra todos los servicios y se puede contratar por el carrito de compras."
+        "category": "Development, Design",
+        "text": "Website developed for the final project of the Coderhouse ReactJs course. The site shows all the services and one can be requested through the shopping cart."
 
     }
     ,
@@ -174,13 +174,13 @@
         "id": "16",
         "image": "https://i.postimg.cc/prywSRzW/port1.jpg",
         "title":"Portfolio",
-        "tools": "Tecnologías utilizadas: CSS, HTML, Adobe Ilustrator, Adobe Photoshop, Figma",
+        "tools": "Technologies used: CSS, HTML, Adobe Ilustrator, Adobe Photoshop, Figma",
         "project": "https://youtu.be/i0_gEIKwrdk",
         "view": "https://i.postimg.cc/0NGD7Z10/Mesa-de-trabajo-25projects.png",
         "gitHub": "https://github.com/Camila-Pletscher/portfolio", 
         "code": "https://i.postimg.cc/HxBMhxxJ/Mesa-de-trabajo-24projects.png",
-        "category": "Desarrollo, Diseño",
-        "text": "Página web realizada como trabajo final del curso Desarrollo web de Coderhouse."
+        "category": "Development, Design",
+        "text": "Website developed for the final web development project of Coderhouse."
     }
 ]
 
