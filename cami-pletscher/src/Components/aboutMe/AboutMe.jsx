@@ -5,7 +5,7 @@ import styles from "./aboutme.module.css";
 import "../styles/global.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import cv from "../../Camila-Pletscher-cv-2023_compressed.pdf";
+import cv from "../../Camila-Pletscher-2023.pdf";
 
 function AboutMe(props) {
   useEffect(() => {
