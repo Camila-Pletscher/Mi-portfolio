@@ -84,17 +84,13 @@ function AboutMeEn(props) {
 
           <div className="show_in_mobile">
             <p className={styles.description}>
-              I graduated as <b>Graphic Designer</b> from National University of
-              Lanus and <b>Front End developer</b> from Coderhouse.{" "}
+              I graduated as <b>Graphic Designer</b> from Universidad Nacional de Lanús and <b>Front End developer</b> from Coderhouse.{" "}
               {read ? (
                 <span className={styles.read_more}>
-                  In the final of my bachelor degree I discovered the
-                  programming and I decided to focus my career in the{" "}
-                  <span className="italic">development and web design. </span>I
-                  am a methodical and organized person who likes to search and
-                  find solutions to problems. I love to do and watch any kind of
-                  sports and my favorite moments are always with my loved
-                  people.
+                At the end of my course of studies, I discovered programming and I decided to start my professional career as a{" "}
+                  <span className="italic">developer and web designer. </span>
+                  I am a problem solving and detail-oriented person. I love practising and watching any kind of sports
+              and my favorite moments are always with my relatives and friends.
                   <div onClick={() => setRead(!read)}>Leer menos (-)</div>{" "}
                 </span>
               ) : (
@@ -104,14 +100,9 @@ function AboutMeEn(props) {
           </div>
           <div className="hide_in_mobile">
             <p className={styles.description}>
-              I graduated as <b>Graphic Designer</b> from National University of
-              Lanus and <b>Front End developer</b> from Coderhouse. In the final
-              of my bachelor degree I discovered the programming and I decided
-              to focus my career in the{" "}
-              <span className="italic">development and web design.</span> I am a
-              methodical and organized person who likes to search and find
-              solutions to problems. I love to do and watch any kind of sports
-              and my favorite moments are always with my loved people.
+              I graduated as <b>Graphic Designer</b> from Universidad Nacional de Lanús and <b>Front End developer</b> from Coderhouse. At the end of my course of studies, I discovered programming and I decided to start my professional career as a{" "}
+              <span className="italic">developer and web designer.</span> I am a problem solving and detail-oriented person. I love practising and watching any kind of sports
+              and my favorite moments are always with my relatives and friends.
             </p>
           </div>
 

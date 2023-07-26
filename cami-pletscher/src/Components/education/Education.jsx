@@ -46,9 +46,9 @@ function Education() {
             <img src="https://i.postimg.cc/Bn6xQT75/Group-18.png" alt=""></img>
           </div>
           <div>
-            <p className={styles.one}>Marzo 2021 - Actualidad</p>
+            <p className={styles.one}>Marzo 2022 - Actualidad</p>
             <p className={styles.two}>
-              Inglés <br></br> In Company
+              Inglés - Nivel intermedio
             </p>
             <p className={styles.three}>Lingua Universi</p>
           </div>

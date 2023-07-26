@@ -52,7 +52,7 @@ function ServicesEn({ scrollToContact }) {
         <div data-aos="zoom-in" className={styles.subtitle}>
           <p>
             As a <span>graphic and web designer</span> I make websites with the latest trends. Always attentive to the requeriments of my clients to work together and achieve a 
-            <span> fast and effective</span> to any problem, asesoring and coordinating until the last detail. If you have any question, don't hesitate to {" "}
+            <span> fast and effective</span> solution to any problem. If you have any question, don't hesitate to {" "}
             <div onClick={scrollToContact}>
               <span>contact me</span>
             </div>
