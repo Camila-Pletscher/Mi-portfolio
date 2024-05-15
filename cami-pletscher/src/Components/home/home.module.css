@@ -86,7 +86,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #000000;
-  font-size: 4em;
+  font-size: 3.8em;
   margin: 0;
 }
 
@@ -98,7 +98,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .cont_anclaje {
@@ -112,7 +112,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #000000;
-  font-size: 1.5em;
+  font-size: 1em;
   padding-bottom: 0.5em;
 }
 
@@ -128,7 +128,7 @@ body {
 .container_buttons button {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 1em;
   background-color: #ffffff;
   border: #fe006e solid 1px;
   border-radius: 0.5em;
@@ -206,7 +206,7 @@ body {
     width: 80%;
   }
 
-  .cont_soy p {
+  /* .cont_soy p {
     font-size: 3.5em;
   }
 
@@ -220,12 +220,12 @@ body {
 
   .container_buttons button {
     font-size: 1.5em;
-  }
+  } */
 
 
 }
 
-@media (max-width: 972px) {
+/* @media (max-width: 972px) {
   .cont_hola p {
     font-size: 2.5em;
   }
@@ -373,4 +373,4 @@ body {
   }
 
 
-}
+} */

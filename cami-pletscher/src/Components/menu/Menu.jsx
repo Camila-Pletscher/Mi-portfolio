@@ -30,29 +30,29 @@ function Menu(props) {
         className={styles.container_nav}
       >
         <div onClick={props.scrollToAbout}>
-          <p>SOBRE MI</p>
+          <p>Sobre mi</p>
         </div>
         <div onClick={props.scrollToServices}>
-          <p>SERVICIOS</p>
+          <p>Servicios</p>
         </div>
         <div onClick={props.scrollToPortfolio}>
-          <p>PORTAFOLIO</p>
+          <p>Portafolio</p>
         </div>
         <div onClick={props.scrollToSkills}>
-          <p>SKILLS</p>
+          <p>Skills</p>
         </div>
         <div onClick={props.scrollToAchievements}>
-          <p>LOGROS</p>
+          <p>Logros</p>
         </div>
         <div onClick={props.scrollToContact}>
-          <p>CONTACTO</p>
+          <p>Contacto</p>
         </div>
       </div>
       <Link to="/startEn">
         {" "}
         <div className={styles.language}>
-          <p>EN</p>
-          <i class="material-icons">language</i>
+          <p>English</p>
+          <i class="tiny material-icons">language</i>
         </div>
       </Link>
       {menu ? (
@@ -95,8 +95,8 @@ function Menu(props) {
             <Link to="/startEn">
               {" "}
               <div className={styles.language_mobile}>
-                <p>EN</p>
-                <i class="material-icons">language</i>
+                <p>English</p>
+                <i class="tiny material-icons">language</i>
               </div>
             </Link>
           </div>

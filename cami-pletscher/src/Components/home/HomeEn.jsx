@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./home.module.css";
-import cv from "../../Camila-Pletscher-2023-EN.pdf";
+import cv from "../../Camila-Pletscher-2024-EN.pdf";
 import { Link } from "react-router-dom";
 
 function HomeEn(props) {
