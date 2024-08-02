@@ -5,14 +5,14 @@ import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
 import Menu from "./menu/Menu";
 import Portfolio from "./portfolio/Portfolio";
-import Services from "./services/Services";
+// import Services from "./services/Services";
 import Skills from "./skills/Skills";
 
 
 function Container() {
   const menuSection = useRef();
   const aboutSection = useRef();
-  const servicesSection = useRef();
+  // const servicesSection = useRef();
   const portfolioSection = useRef();
   const skillsSection = useRef();
   const achievementsSection = useRef();
@@ -20,7 +20,7 @@ function Container() {
 
   const scrollToMenu = () => menuSection.current.scrollIntoView();
   const scrollToAbout = () => aboutSection.current.scrollIntoView();
-  const scrollToServices = () => servicesSection.current.scrollIntoView();
+  // const scrollToServices = () => servicesSection.current.scrollIntoView();
   const scrollToPortfolio = () => portfolioSection.current.scrollIntoView();
   const scrollToSkills = () => skillsSection.current.scrollIntoView();
   const scrollToAchievements = () =>
@@ -31,7 +31,7 @@ function Container() {
       <Menu
         
         scrollToAbout={scrollToAbout}
-        scrollToServices={scrollToServices}
+        // scrollToServices={scrollToServices}
         scrollToPortfolio={scrollToPortfolio}
         scrollToSkills={scrollToSkills}
         scrollToAchievements={scrollToAchievements}
@@ -41,9 +41,9 @@ function Container() {
       <div className="container" ref={aboutSection}>
         <AboutMe scrollToContact={scrollToContact} />
       </div>
-      <div className="container" ref={servicesSection}>
+      {/* <div className="container" ref={servicesSection}>
         <Services scrollToContact={scrollToContact} />
-      </div>
+      </div> */}
 
       <div className="container" ref={portfolioSection}>
         <Portfolio />

@@ -18,36 +18,61 @@ function ExperienceEn() {
       <div className={styles.cont_info_exp}>
         <div data-aos="zoom-in" className={styles.cont_each_exp}>
           <div className={styles.pad_txt}>
-            <p className={styles.one}>Front End developer</p>
-            <p className={styles.two}>MRM McCann group</p>
-            <p className={styles.three}>
-              Email marketing development for General Motors. Support for
-              websites with JavaScript. Developing the Open Peds application
-              "Learn Peritoneal Dialysis" with ReactJs.
-            </p>
-          </div>
-          <div className={styles.plinth}>January 2022 - Present</div>
-        </div>
-
-        <div data-aos="zoom-in" className={styles.cont_each_exp}>
-          <div className={styles.pad_txt}>
             <p className={styles.one}>Graphic Designer</p>
             <p className={styles.two}>Chiappini + Becker</p>
             <p className={styles.three}>
-              Design of various graphic pieces. Email marketing development for
-              companies such as Boehringer Ingelheim, Teva, Astrazeneca, Vifor
-              and others.
+              Design of various graphic pieces for companies such as Boehringer
+              Ingelheim, Teva, Astrazeneca, Vifor and others.
+            </p>
+            <p className={styles.three}>
+              Email marketing development for companies such as Boehringer
+              Ingelheim and Astrazeneca.
             </p>
           </div>
           <div className={styles.plinth}>May 2021 - January 2022</div>
         </div>
         <div data-aos="zoom-in" className={styles.cont_each_exp}>
           <div className={styles.pad_txt}>
-            <p className={styles.one}>Graphic Designer Freelance</p>
-            <p className={styles.two}>IMAGENCIA</p>
-            <p className={styles.three}>Social media content design</p>
+            <p className={styles.one}>Front End developer</p>
+            <p className={styles.two}>MRM McCann group</p>
+            <p className={styles.three}>
+              Email marketing development for General Motors.
+            </p>
+            <p className={styles.three}>
+              Support for websites with JavaScript.
+            </p>
+            <p className={styles.three}>
+              Developing the Open Peds application "Learn Peritoneal Dialysis"
+              with ReactJs.
+            </p>
           </div>
-          <div className={styles.plinth}>September 2021 - January 2022</div>
+          <div className={styles.plinth}>January 2022 - October 2023</div>
+        </div>
+        <div data-aos="zoom-in" className={styles.cont_each_exp}>
+          <div className={styles.pad_txt}>
+            <p className={styles.one}>Front End developer (SAP BTP/UI5)</p>
+            <p className={styles.two}>Accenture</p>
+            <p className={styles.three}>
+              Development of UI5 applications using JavaScript within SAP BTP
+              environment.{" "}
+            </p>
+            <p className={styles.three}>
+              Collaboration in agile teams for project delivery.
+            </p>
+            <p className={styles.three}>
+              Optimization of UI5 application performance.
+            </p>
+            <p className={styles.three}>
+              Maintenance and troubleshooting of existing applications.
+            </p>
+            <p className={styles.three}>
+              Integration of UI5 components with back-end systems.
+            </p>
+            <p className={styles.three}>
+              Creation of UI5 component prototypes using Figma.
+            </p>
+          </div>
+          <div className={styles.plinth}>October 2023 - Present</div>
         </div>
       </div>
     </div>

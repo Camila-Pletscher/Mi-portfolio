@@ -138,12 +138,12 @@ body {
 .container_buttons button {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-right: 1em;
   background-color: #fe006e;
   border: none;
   border-radius: 1em;
-  width: 180px;
+  width: 150px;
   padding: 0.5em 0;
   margin-bottom: 1em;
   margin-top: 1em;

@@ -7,7 +7,7 @@ import logo from "../../Principal.svg";
 
 function Logo() {
   return (
-    <div className={styles.container_logo_componente}>
+    <div className={styles.container_logo}>
       <Link to="/">
         <img
           src={logo}

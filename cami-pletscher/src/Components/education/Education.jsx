@@ -50,7 +50,7 @@ function Education() {
             <p className={styles.two}>
               Inglés - Nivel intermedio
             </p>
-            <p className={styles.three}>Lingua Universi</p>
+            <p className={styles.three}>Plataformas online - Clases particulares</p>
           </div>
         </div>
         <div data-aos="zoom-in" className={styles.cont_dev}>
@@ -58,11 +58,11 @@ function Education() {
             <img src="https://i.postimg.cc/Fs12Y0Wm/Group-13.png" alt=""></img>
           </div>
           <div>
-            <p className={styles.one}>Julio 2023 - Actualidad</p>
+            <p className={styles.one}>Febrero 2024 - Actualidad</p>
             <p className={styles.two}>
-              FullStack - JavaScript | Node JS
+              Licenciatura en Sistemas
             </p>
-            <p className={styles.three}>Codo a Codo</p>
+            <p className={styles.three}>Universidad Nacional de Lanús</p>
           </div>
         </div>
       </div>

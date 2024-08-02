@@ -51,7 +51,7 @@ function Portfolio() {
           <option value="Diseño">Diseño</option>
           <option value="Desarrollo">Desarrollo</option>
         </select>
-        <div className={styles.select_arrow}></div>
+        {/* <div className={styles.select_arrow}></div> */}
       </div>
 
       <div id="cont_projects" className={styles.cont_project_list}>

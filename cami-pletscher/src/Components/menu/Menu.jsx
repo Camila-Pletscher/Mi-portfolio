@@ -32,9 +32,9 @@ function Menu(props) {
         <div onClick={props.scrollToAbout}>
           <p>Sobre mi</p>
         </div>
-        <div onClick={props.scrollToServices}>
+        {/* <div onClick={props.scrollToServices}>
           <p>Servicios</p>
-        </div>
+        </div> */}
         <div onClick={props.scrollToPortfolio}>
           <p>Portafolio</p>
         </div>
@@ -76,9 +76,9 @@ function Menu(props) {
               <div onClick={props.scrollToAbout}>
                 <p onClick={() => setMenu(!menu)}>SOBRE MI</p>
               </div>
-              <div onClick={props.scrollToServices}>
+              {/* <div onClick={props.scrollToServices}>
                 <p onClick={() => setMenu(!menu)}>SERVICIOS</p>
-              </div>
+              </div> */}
               <div onClick={props.scrollToPortfolio}>
                 <p onClick={() => setMenu(!menu)}>PORTAFOLIO</p>
               </div>

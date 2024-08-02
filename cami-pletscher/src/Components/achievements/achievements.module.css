@@ -19,7 +19,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 68%;
+  width: 90%;
   margin: 5em 0em;
 
 }
@@ -29,9 +29,9 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  width: 55%;
+  width: 30%;
   background-color: #ffe5f0;
-  padding: 1.5em;
+  padding: 1em;
   margin: 1em;
   height: auto;
   border-radius: 25px;
@@ -56,21 +56,21 @@
 
 .cont_title_achievement {
   color: #fe006e;
-  margin-bottom: 1em;
-  font-size: 1.5em;
+  margin-bottom: 0.4em;
+  font-size: 1em;
   font-weight: 600;
 }
 
 .cont_place_achievement {
   color: #000;
-  margin-bottom: 1em;
-  font-size: 1.2em;
+  margin-bottom: 0.4em;
+  font-size: 1em;
   font-weight: 500;
 }
 
 .cont_date_achievement {
   color: #000;
-  font-size: 1.2em;
+  font-size: 1em;
   font-style: italic;
 }
 
@@ -94,6 +94,9 @@
   margin: 0;
 }
 
+.cont_each_achievement {
+  width: 40%;
+}
 
 }
 

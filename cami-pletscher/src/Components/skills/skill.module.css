@@ -17,15 +17,15 @@
 
 .skill_scroll {
   width: 100%;
-  margin: 0 2rem;
+  margin: 0;
 }
 
 .skill_box {
   background: #fafafa;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
   border-radius: 10px;
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 100px;
   margin: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@
   transition: 0.3s ease-in-out;
 }
 
-@media (min-width: 992px) and (max-width: 1380px) {
+/* @media (min-width: 992px) and (max-width: 1380px) {
   .skills_container {
     padding: 0.5rem;
     margin-top: 1.5rem;
@@ -54,7 +54,7 @@
     margin: 1.2rem;
     padding: 2rem 1rem;
   }
-}
+} */
 
 @media screen and (max-width: 800px) {
   .skills_container {

@@ -55,12 +55,12 @@
 }
 
 .container_nav div p:hover {
-  box-shadow: inset 100px 0 0 0 #fe006e;
+  box-shadow: inset 150px 0 0 0 #fe006e;
   color: white;
   padding: 0.5em;
 }
 
-@media (max-width: 612px) {
+@media (max-width: 768px) {
   .container_nav {
     display: none;
   }
@@ -78,7 +78,7 @@
     border: #ffffff solid 1px;
     border-radius: 0.5em;
     width: 80px;
-    padding: 0.5em 0;
+    padding: 0.5em;
     margin-bottom: 1em;
     margin-top: 1em;
     cursor: pointer;

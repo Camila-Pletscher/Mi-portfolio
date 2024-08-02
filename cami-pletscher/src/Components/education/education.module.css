@@ -6,7 +6,7 @@
   flex-wrap: nowrap;
   background-color: #ffe5f0;
   margin-top: 5em;
-  margin-bottom: 5em;
+  /* margin-bottom: 5em; */
   padding-bottom: 5em;
   width: 100%;
 }
@@ -17,20 +17,21 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  width: 75%;
+  width: 70%;
 }
 
 .cont_design,
 .cont_dev {
   background-color: #ffffff;
   border-radius: 1em;
-  padding: 1em;
+  padding: 1em 0em;
   margin: 0.5em;
   height: auto;
-  width: auto;
-  max-width: 450px;
-  min-width: 450px;
-  min-height: 300px;
+  min-height: 175px;
+  width: 300px;
+  /* max-width: 300px;
+  min-width: 300px; */
+  /* max-height: 200px; */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -42,87 +43,87 @@
   font-weight: 400;
   text-align: center;
   margin-top: 1em;
-  font-size: 1.5em;
+  font-size: 0.8em;
 }
 
 .cont_design .two {
   font-weight: 700;
   text-align: center;
-  font-size: 1.8em;
-  margin-top: 0.8em;
+  font-size: 1em;
+  margin-top: 1em;
 }
 
 .cont_design .three {
   font-weight: 300;
   text-align: center;
-  font-size: 1.2em;
-  margin-top: 0.8em;
+  font-size: 0.8em;
+  margin-top: 1em;
 }
 
 .cont_dev .one {
   font-weight: 400;
   text-align: center;
   margin-top: 1em;
-  font-size: 1.5em;
+  font-size: 0.8em;
 }
 
 .cont_dev .two {
   font-weight: 700;
   text-align: center;
-  font-size: 1.8em;
-  margin-top: 0.8em;
+  font-size: 1em;
+  margin-top: 1em;
 }
 
 .cont_dev .three {
   font-weight: 300;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 0.8em;
   margin-top: 0.8em;
 }
 
 /* RESPONSIVE  =========================================================================  */
 
-@media (max-width: 1512px) {
+/* @media (max-width: 1512px) { */
   .cont_info_edu {
     justify-content: center;
   }
-  .cont_design,
+  /* .cont_design,
   .cont_dev {
-    min-height: 250px;
-  }
+    min-height: 200px;
+  } */
 
   .cont_design div img {
-    width: 80px;
+    width: 50px;
   }
 
   .cont_dev div img {
-    width: 80px;
+    width: 50px;
   }
 
-  .cont_design .one {
-    font-size: 1em;
+  /* .cont_design .one {
+    font-size: 0.8em;
   }
 
   .cont_dev .one {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .cont_design .two {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .cont_dev .two {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .cont_design .three {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .cont_dev .three {
-    font-size: 1em;
-  }
-}
+    font-size: 0.8em;
+  } */
+/* } */
 
 @media (max-width: 1212px) {
   .cont_design,

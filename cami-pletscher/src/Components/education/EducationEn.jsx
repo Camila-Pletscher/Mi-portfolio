@@ -50,7 +50,7 @@ function EducationEn() {
             <p className={styles.two}>
               English | Intermediate Level
             </p>
-            <p className={styles.three}>Lingua Universi</p>
+            <p className={styles.three}>Individual lessons and online platforms</p>
           </div>
         </div>
         <div data-aos="zoom-in" className={styles.cont_dev}>
@@ -58,11 +58,11 @@ function EducationEn() {
             <img src="https://i.postimg.cc/Fs12Y0Wm/Group-13.png" alt=""></img>
           </div>
           <div>
-            <p className={styles.one}>July 2023 - Present</p>
+            <p className={styles.one}>February 2024 - Present</p>
             <p className={styles.two}>
-              FullStack - JavaScript | Node JS
+              Bachelor's degree in Computer Science
             </p>
-            <p className={styles.three}>Codo a Codo</p>
+            <p className={styles.three}>Universidad Nacional de Lanus</p>
           </div>
         </div>
       </div>

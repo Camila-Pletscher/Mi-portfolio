@@ -51,7 +51,7 @@ function PortfolioEn() {
           <option value="Design">Design</option>
           <option value="Development">Development</option>
         </select>
-        <div className={styles.select_arrow}></div>
+        {/* <div className={styles.select_arrow}></div> */}
       </div>
 
       <div id="cont_projects" className={styles.cont_project_list}>

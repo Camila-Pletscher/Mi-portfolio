@@ -3,7 +3,7 @@ import styles from "./home.module.css";
 import cv from "../../Camila-Pletscher-2024.pdf";
 import { Link } from "react-router-dom";
 
-function Home(props) {
+function Home() {
   return (
     <div className={styles.container_home}>
       <div className={styles.container_all}>
