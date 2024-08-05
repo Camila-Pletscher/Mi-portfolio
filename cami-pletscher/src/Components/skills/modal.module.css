@@ -95,6 +95,7 @@
   .each_skill {
     width: 30%;
     margin: 0.5em;
+    min-height: 140px;
   }
 
   .each_skill img {
